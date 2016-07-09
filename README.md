@@ -10,3 +10,4 @@
     new.csproj
     是一个 cs 工程，执行 UpdateSln.py 之后 编译 new.csproj 可以生成协议的dll 文件， 需要mono 环境的支持，只在 mac上面测试过
 
+5:windows 使用 protoc_win.exe mac使用brew install 安装的官方 protoc  pb 2.5.0版本
