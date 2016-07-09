@@ -1,0 +1,8 @@
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtoDump\bin\Release\ProtoDump.exe.config
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtoDump\bin\Release\ProtoDump.exe
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtoDump\bin\Release\ProtoDump.pdb
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtoDump\bin\Release\Google.ProtocolBuffers.dll
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtoDump\bin\Release\Google.ProtocolBuffers.pdb
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtoDump\obj\Release\ProtoDump.csprojResolveAssemblyReference.cache
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtoDump\obj\Release\ProtoDump.exe
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtoDump\obj\Release\ProtoDump.pdb

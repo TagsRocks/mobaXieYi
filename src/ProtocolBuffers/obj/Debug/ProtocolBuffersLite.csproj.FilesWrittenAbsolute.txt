@@ -1,0 +1,5 @@
+/Users/liyong/Desktop/protobuffer/src/ProtocolBuffers/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/liyong/Desktop/protobuffer/src/ProtocolBuffers/bin/Debug/Google.ProtocolBuffersLite.dll.mdb
+/Users/liyong/Desktop/protobuffer/src/ProtocolBuffers/bin/Debug/Google.ProtocolBuffersLite.dll
+/Users/liyong/Desktop/protobuffer/src/ProtocolBuffers/obj/Debug/Google.ProtocolBuffersLite.dll
+/Users/liyong/Desktop/protobuffer/src/ProtocolBuffers/obj/Debug/Google.ProtocolBuffersLite.dll.mdb

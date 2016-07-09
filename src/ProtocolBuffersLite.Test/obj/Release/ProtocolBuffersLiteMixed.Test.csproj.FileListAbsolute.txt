@@ -1,0 +1,10 @@
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtocolBuffersLite.Test\bin\Release\Google.ProtocolBuffersMixedLite.Test.dll
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtocolBuffersLite.Test\bin\Release\Google.ProtocolBuffersMixedLite.Test.pdb
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtocolBuffersLite.Test\bin\Release\Google.ProtocolBuffers.dll
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtocolBuffersLite.Test\bin\Release\nunit.framework.dll
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtocolBuffersLite.Test\bin\Release\Rhino.Mocks.dll
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtocolBuffersLite.Test\bin\Release\Google.ProtocolBuffers.pdb
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtocolBuffersLite.Test\bin\Release\Rhino.Mocks.xml
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtocolBuffersLite.Test\obj\Release\ProtocolBuffersLiteMixed.Test.csprojResolveAssemblyReference.cache
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtocolBuffersLite.Test\obj\Release\Google.ProtocolBuffersMixedLite.Test.dll
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtocolBuffersLite.Test\obj\Release\Google.ProtocolBuffersMixedLite.Test.pdb

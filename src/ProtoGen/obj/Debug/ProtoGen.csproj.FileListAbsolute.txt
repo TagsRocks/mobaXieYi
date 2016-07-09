@@ -1,0 +1,11 @@
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtoGen\bin\Debug\ProtoGen.exe.config
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtoGen\bin\Debug\ProtoGen.exe
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtoGen\bin\Debug\ProtoGen.pdb
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtoGen\bin\Debug\Google.ProtocolBuffers.dll
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtoGen\bin\Debug\Google.ProtocolBuffers.pdb
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtoGen\obj\Debug\ProtoGen.csprojResolveAssemblyReference.cache
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtoGen\obj\Debug\ProtoGen.exe
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtoGen\obj\Debug\ProtoGen.pdb
+D:\neiwang3\zc\protobuffer\src\ProtoGen\obj\Debug\ProtoGen.exe
+D:\neiwang3\zc\protobuffer\src\ProtoGen\obj\Debug\ProtoGen.pdb
+D:\neiwang3\zc\protobuffer\src\ProtoGen\bin\Debug\ProtoGen.exe.config

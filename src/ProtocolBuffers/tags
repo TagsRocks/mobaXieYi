@@ -1,0 +1,1127 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AbstractBuilder	AbstractBuilder.cs	/^  public abstract class AbstractBuilder<TMessage, TBuilder> : AbstractBuilderLite<TMessage, TBuilder>, IBuilder<TMessage, TBuilder> $/;"	c	namespace:Google.ProtocolBuffers
+AbstractBuilderLite	AbstractBuilderLite.cs	/^  public abstract class AbstractBuilderLite<TMessage, TBuilder> : IBuilderLite<TMessage, TBuilder>$/;"	c	namespace:Google.ProtocolBuffers
+AbstractMessage	AbstractMessage.cs	/^  public abstract class AbstractMessage<TMessage, TBuilder> : AbstractMessageLite<TMessage, TBuilder>, IMessage<TMessage, TBuilder> $/;"	c	namespace:Google.ProtocolBuffers
+AbstractMessageLite	AbstractMessageLite.cs	/^  public abstract class AbstractMessageLite<TMessage, TBuilder> : IMessageLite<TMessage, TBuilder>$/;"	c	namespace:Google.ProtocolBuffers
+Action	Delegates.cs	/^  internal delegate void Action();$/;"	m	namespace:Google.ProtocolBuffers
+Action	Delegates.cs	/^  internal delegate void Action<T1, T2>(T1 arg1, T2 arg2);$/;"	m	namespace:Google.ProtocolBuffers
+Add	ExtensionRegistry.cs	/^    private void Add(ExtensionInfo extension) {$/;"	m	class:Google.ProtocolBuffers.ExtensionRegistry	file:
+Add	ExtensionRegistry.cs	/^    public void Add(FieldDescriptor type) {$/;"	m	class:Google.ProtocolBuffers.ExtensionRegistry
+Add	ExtensionRegistry.cs	/^    public void Add(FieldDescriptor type, IMessage defaultInstance) {$/;"	m	class:Google.ProtocolBuffers.ExtensionRegistry
+Add	ExtensionRegistry.cs	/^    public void Add<TExtension> (GeneratedExtensionBase<TExtension> extension) {$/;"	m	class:Google.ProtocolBuffers.ExtensionRegistry
+Add	SortedList.cs	/^        public void Add(KeyValuePair<TKey, TValue> item)$/;"	m	class:Google.ProtocolBuffers.SortedList
+Add	SortedList.cs	/^        public void Add(TKey key, TValue value)$/;"	m	class:Google.ProtocolBuffers.SortedList
+Add	UnknownField.cs	/^      private static List<T> Add<T>(List<T> list, T value) {$/;"	m	class:Google.ProtocolBuffers.UnknownField.Builder	file:
+AddAll	UnknownField.cs	/^      private static List<T> AddAll<T>(List<T> current, IList<T> extras)$/;"	m	class:Google.ProtocolBuffers.UnknownField.Builder	file:
+AddExtension	ExtendableBuilder.cs	/^    public TBuilder AddExtension<TExtension>(GeneratedExtensionBase<IList<TExtension>> extension, TExtension value) {$/;"	m	class:Google.ProtocolBuffers.ExtendableBuilder
+AddExtension	ExtendableBuilderLite.cs	/^    public TBuilder AddExtension<TExtension>(GeneratedExtensionLite<TMessage, IList<TExtension>> extension, TExtension value) {$/;"	m	class:Google.ProtocolBuffers.ExtendableBuilderLite
+AddField	UnknownFieldSet.cs	/^      public Builder AddField(int number, UnknownField field) {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet.Builder
+AddFixed32	UnknownField.cs	/^      public Builder AddFixed32(uint value) {$/;"	m	class:Google.ProtocolBuffers.UnknownField.Builder
+AddFixed64	UnknownField.cs	/^      public Builder AddFixed64(ulong value) {$/;"	m	class:Google.ProtocolBuffers.UnknownField.Builder
+AddGroup	UnknownField.cs	/^      public Builder AddGroup(UnknownFieldSet value) {$/;"	m	class:Google.ProtocolBuffers.UnknownField.Builder
+AddLengthDelimited	UnknownField.cs	/^      public Builder AddLengthDelimited(ByteString value) {$/;"	m	class:Google.ProtocolBuffers.UnknownField.Builder
+AddRange	GeneratedBuilder.cs	/^    protected void AddRange<T>(IEnumerable<T> source, IList<T> destination) {$/;"	m	class:Google.ProtocolBuffers.GeneratedBuilder
+AddRange	GeneratedBuilderLite.cs	/^    protected void AddRange<T>(IEnumerable<T> source, IList<T> destination) {$/;"	m	class:Google.ProtocolBuffers.GeneratedBuilderLite
+AddRepeatedField	AbstractBuilder.cs	/^    public abstract TBuilder AddRepeatedField(FieldDescriptor field, object value);$/;"	m	class:Google.ProtocolBuffers.AbstractBuilder
+AddRepeatedField	DynamicMessage.cs	/^      public override Builder AddRepeatedField(FieldDescriptor field, object value) {$/;"	m	class:Google.ProtocolBuffers.DynamicMessage.Builder
+AddRepeatedField	ExtendableBuilder.cs	/^    public override TBuilder AddRepeatedField(FieldDescriptor field, object value) {$/;"	m	class:Google.ProtocolBuffers.ExtendableBuilder
+AddRepeatedField	ExtendableBuilderLite.cs	/^    public TBuilder AddRepeatedField(IFieldDescriptorLite field, object value) {$/;"	m	class:Google.ProtocolBuffers.ExtendableBuilderLite
+AddRepeatedField	FieldSet.cs	/^    internal void AddRepeatedField(IFieldDescriptorLite field, object value) {$/;"	m	class:Google.ProtocolBuffers.FieldSet	file:
+AddRepeatedField	GeneratedBuilder.cs	/^    public override TBuilder AddRepeatedField(FieldDescriptor field, object value) {$/;"	m	class:Google.ProtocolBuffers.GeneratedBuilder
+AddRepeatedField	IBuilder.cs	/^    TBuilder AddRepeatedField(FieldDescriptor field, object value);$/;"	m	interface:Google.ProtocolBuffers.IBuilder
+AddVarint	UnknownField.cs	/^      public Builder AddVarint(ulong value) {$/;"	m	class:Google.ProtocolBuffers.UnknownField.Builder
+AllFieldDescriptors	FieldSet.cs	/^    internal IDictionary<Descriptors.FieldDescriptor, object> AllFieldDescriptors {$/;"	p	class:Google.ProtocolBuffers.FieldSet
+AllFields	AbstractBuilder.cs	/^    public abstract IDictionary<FieldDescriptor, object> AllFields { get; }$/;"	p	class:Google.ProtocolBuffers.AbstractBuilder
+AllFields	AbstractMessage.cs	/^    public abstract IDictionary<FieldDescriptor, object> AllFields { get; }$/;"	p	class:Google.ProtocolBuffers.AbstractMessage
+AllFields	DynamicMessage.cs	/^      public override IDictionary<FieldDescriptor, object> AllFields {$/;"	p	class:Google.ProtocolBuffers.DynamicMessage.Builder
+AllFields	DynamicMessage.cs	/^    public override IDictionary<FieldDescriptor, object> AllFields {$/;"	p	class:Google.ProtocolBuffers.DynamicMessage
+AllFields	ExtendableMessage.cs	/^    public override IDictionary<FieldDescriptor, object> AllFields {$/;"	p	class:Google.ProtocolBuffers.ExtendableMessage
+AllFields	FieldSet.cs	/^    internal IDictionary<IFieldDescriptorLite, object> AllFields {$/;"	p	class:Google.ProtocolBuffers.FieldSet
+AllFields	GeneratedBuilder.cs	/^    public override IDictionary<FieldDescriptor, object> AllFields {$/;"	p	class:Google.ProtocolBuffers.GeneratedBuilder
+AllFields	GeneratedMessage.cs	/^    public override IDictionary<FieldDescriptor, object> AllFields {$/;"	p	class:Google.ProtocolBuffers.GeneratedMessage
+AllFields	IBuilder.cs	/^    IDictionary<FieldDescriptor, object> AllFields { get; }$/;"	p	interface:Google.ProtocolBuffers.IBuilder
+AllFields	IMessage.cs	/^    IDictionary<FieldDescriptor, object> AllFields { get; }$/;"	p	interface:Google.ProtocolBuffers.IMessage
+AsInvalidProtocolBufferException	UninitializedMessageException.cs	/^    public InvalidProtocolBufferException AsInvalidProtocolBufferException() {$/;"	m	class:Google.ProtocolBuffers.UninitializedMessageException
+AsReadOnly	ExtensionRegistry.cs	/^    public ExtensionRegistry AsReadOnly() {$/;"	m	class:Google.ProtocolBuffers.ExtensionRegistry
+AtEnd	TextTokenizer.cs	/^    public bool AtEnd {$/;"	p	class:Google.ProtocolBuffers.TextTokenizer
+BoolSize	WireFormat.cs	/^    internal const int BoolSize = 1;$/;"	f	class:Google.ProtocolBuffers.WireFormat	file:
+BufferSize	CodedInputStream.cs	/^    internal const int BufferSize = 4096;$/;"	f	class:Google.ProtocolBuffers.CodedInputStream	file:
+Build	AbstractBuilderLite.cs	/^    public abstract TMessage Build();$/;"	m	class:Google.ProtocolBuffers.AbstractBuilderLite
+Build	ByteString.cs	/^      internal ByteString Build() {$/;"	m	class:Google.ProtocolBuffers.ByteString.CodedBuilder	file:
+Build	DynamicMessage.cs	/^      public override DynamicMessage Build() {$/;"	m	class:Google.ProtocolBuffers.DynamicMessage.Builder
+Build	GeneratedBuilder.cs	/^    public override TMessage Build() {$/;"	m	class:Google.ProtocolBuffers.GeneratedBuilder
+Build	GeneratedBuilderLite.cs	/^    public override TMessage Build() {$/;"	m	class:Google.ProtocolBuffers.GeneratedBuilderLite
+Build	IBuilder.cs	/^    new TMessage Build();$/;"	m	interface:Google.ProtocolBuffers.IBuilder
+Build	IBuilderLite.cs	/^    TMessage Build();$/;"	m	interface:Google.ProtocolBuffers.IBuilderLite
+Build	UnknownField.cs	/^      public UnknownField Build() {$/;"	m	class:Google.ProtocolBuffers.UnknownField.Builder
+Build	UnknownFieldSet.cs	/^      public UnknownFieldSet Build() {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet.Builder
+BuildDescription	UninitializedMessageException.cs	/^    private static string BuildDescription(IEnumerable<string> missingFields) {$/;"	m	class:Google.ProtocolBuffers.UninitializedMessageException	file:
+BuildMessageReader	MessageStreamIterator.cs	/^    private static Func<CodedInputStream, ExtensionRegistry, TMessage> BuildMessageReader() {$/;"	m	class:Google.ProtocolBuffers.MessageStreamIterator	file:
+BuildParsed	DynamicMessage.cs	/^      internal DynamicMessage BuildParsed() {$/;"	m	class:Google.ProtocolBuffers.DynamicMessage.Builder	file:
+BuildParsed	GeneratedBuilder.cs	/^    public TMessage BuildParsed() {$/;"	m	class:Google.ProtocolBuffers.GeneratedBuilder
+BuildParsed	GeneratedBuilderLite.cs	/^    public TMessage BuildParsed() {$/;"	m	class:Google.ProtocolBuffers.GeneratedBuilderLite
+BuildPartial	AbstractBuilderLite.cs	/^    public abstract TMessage BuildPartial();$/;"	m	class:Google.ProtocolBuffers.AbstractBuilderLite
+BuildPartial	DynamicMessage.cs	/^      public override DynamicMessage BuildPartial() {$/;"	m	class:Google.ProtocolBuffers.DynamicMessage.Builder
+BuildPartial	IBuilder.cs	/^    new TMessage BuildPartial();$/;"	m	interface:Google.ProtocolBuffers.IBuilder
+BuildPartial	IBuilderLite.cs	/^    TMessage BuildPartial();$/;"	m	interface:Google.ProtocolBuffers.IBuilderLite
+Builder	DynamicMessage.cs	/^      internal Builder(MessageDescriptor type) {$/;"	m	class:Google.ProtocolBuffers.DynamicMessage.Builder	file:
+Builder	DynamicMessage.cs	/^    public sealed class Builder : AbstractBuilder<DynamicMessage, Builder> {$/;"	c	class:Google.ProtocolBuffers.DynamicMessage
+Builder	UnknownField.cs	/^    public sealed class Builder {$/;"	c	class:Google.ProtocolBuffers.UnknownField
+Builder	UnknownFieldSet.cs	/^      internal Builder() {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet.Builder	file:
+Builder	UnknownFieldSet.cs	/^      internal Builder(IDictionary<int, UnknownField> dictionary) {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet.Builder	file:
+Builder	UnknownFieldSet.cs	/^    public sealed class Builder : IBuilderLite$/;"	c	class:Google.ProtocolBuffers.UnknownFieldSet
+ByteString	ByteString.cs	/^    private ByteString(byte[] bytes) {$/;"	m	class:Google.ProtocolBuffers.ByteString	file:
+ByteString	ByteString.cs	/^  public sealed class ByteString : IEnumerable<byte>, IEquatable<ByteString> {$/;"	c	namespace:Google.ProtocolBuffers
+CallMethod	IRpcChannel.cs	/^    void CallMethod(MethodDescriptor method, IRpcController controller,$/;"	m	interface:Google.ProtocolBuffers.IRpcChannel
+CallMethod	IService.cs	/^    void CallMethod(MethodDescriptor method, IRpcController controller,$/;"	m	interface:Google.ProtocolBuffers.IService
+CanRead	AbstractBuilderLite.cs	/^      public override bool CanRead {$/;"	p	class:Google.ProtocolBuffers.AbstractBuilderLite.LimitedInputStream
+CanSeek	AbstractBuilderLite.cs	/^      public override bool CanSeek {$/;"	p	class:Google.ProtocolBuffers.AbstractBuilderLite.LimitedInputStream
+CanWrite	AbstractBuilderLite.cs	/^      public override bool CanWrite {$/;"	p	class:Google.ProtocolBuffers.AbstractBuilderLite.LimitedInputStream
+CheckLastTagWas	CodedInputStream.cs	/^    public void CheckLastTagWas(uint value) {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+CheckNoSpaceLeft	CodedOutputStream.cs	/^    public void CheckNoSpaceLeft() {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+Clear	AbstractBuilder.cs	/^    public override TBuilder Clear() {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilder
+Clear	AbstractBuilderLite.cs	/^    public abstract TBuilder Clear();$/;"	m	class:Google.ProtocolBuffers.AbstractBuilderLite
+Clear	DynamicMessage.cs	/^      public override Builder Clear() {$/;"	m	class:Google.ProtocolBuffers.DynamicMessage.Builder
+Clear	FieldSet.cs	/^    internal void Clear() {$/;"	m	class:Google.ProtocolBuffers.FieldSet	file:
+Clear	IBuilder.cs	/^    new TBuilder Clear();$/;"	m	interface:Google.ProtocolBuffers.IBuilder
+Clear	IBuilderLite.cs	/^    TBuilder Clear();$/;"	m	interface:Google.ProtocolBuffers.IBuilderLite
+Clear	SortedList.cs	/^        public void Clear()$/;"	m	class:Google.ProtocolBuffers.SortedList
+Clear	UnknownField.cs	/^      public Builder Clear() {$/;"	m	class:Google.ProtocolBuffers.UnknownField.Builder
+Clear	UnknownFieldSet.cs	/^      public Builder Clear() {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet.Builder
+ClearExtension	ExtendableBuilder.cs	/^    public TBuilder ClearExtension<TExtension>(GeneratedExtensionBase<TExtension> extension) {$/;"	m	class:Google.ProtocolBuffers.ExtendableBuilder
+ClearExtension	ExtendableBuilderLite.cs	/^    public TBuilder ClearExtension<TExtension>(GeneratedExtensionLite<TMessage, TExtension> extension) {$/;"	m	class:Google.ProtocolBuffers.ExtendableBuilderLite
+ClearField	AbstractBuilder.cs	/^    public abstract TBuilder ClearField(FieldDescriptor field);$/;"	m	class:Google.ProtocolBuffers.AbstractBuilder
+ClearField	DynamicMessage.cs	/^      public override Builder ClearField(FieldDescriptor field) {$/;"	m	class:Google.ProtocolBuffers.DynamicMessage.Builder
+ClearField	ExtendableBuilder.cs	/^    public override TBuilder ClearField(FieldDescriptor field) {$/;"	m	class:Google.ProtocolBuffers.ExtendableBuilder
+ClearField	ExtendableBuilderLite.cs	/^    public TBuilder ClearField(IFieldDescriptorLite field) {$/;"	m	class:Google.ProtocolBuffers.ExtendableBuilderLite
+ClearField	FieldSet.cs	/^    public void ClearField(IFieldDescriptorLite field) {$/;"	m	class:Google.ProtocolBuffers.FieldSet
+ClearField	GeneratedBuilder.cs	/^    public override TBuilder ClearField(FieldDescriptor field) {$/;"	m	class:Google.ProtocolBuffers.GeneratedBuilder
+ClearField	IBuilder.cs	/^    TBuilder ClearField(FieldDescriptor field);$/;"	m	interface:Google.ProtocolBuffers.IBuilder
+Clone	AbstractBuilderLite.cs	/^    public abstract TBuilder Clone();$/;"	m	class:Google.ProtocolBuffers.AbstractBuilderLite
+Clone	DynamicMessage.cs	/^      public override Builder Clone() {$/;"	m	class:Google.ProtocolBuffers.DynamicMessage.Builder
+Clone	IBuilder.cs	/^    new TBuilder Clone();$/;"	m	interface:Google.ProtocolBuffers.IBuilder
+Clone	IBuilderLite.cs	/^    TBuilder Clone();$/;"	m	interface:Google.ProtocolBuffers.IBuilderLite
+CodedBuilder	ByteString.cs	/^      internal CodedBuilder(int size) {$/;"	m	class:Google.ProtocolBuffers.ByteString.CodedBuilder	file:
+CodedBuilder	ByteString.cs	/^    internal sealed class CodedBuilder {$/;"	c	class:Google.ProtocolBuffers.ByteString
+CodedInputStream	CodedInputStream.cs	/^    private CodedInputStream(Stream input) {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream	file:
+CodedInputStream	CodedInputStream.cs	/^    private CodedInputStream(byte[] buffer, int offset, int length) {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream	file:
+CodedInputStream	CodedInputStream.cs	/^  public sealed class CodedInputStream {$/;"	c	namespace:Google.ProtocolBuffers
+CodedOutput	ByteString.cs	/^      internal CodedOutputStream CodedOutput {$/;"	p	class:Google.ProtocolBuffers.ByteString.CodedBuilder
+CodedOutputStream	CodedOutputStream.cs	/^    private CodedOutputStream(Stream output, byte[] buffer) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream	file:
+CodedOutputStream	CodedOutputStream.cs	/^    private CodedOutputStream(byte[] buffer, int offset, int length) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream	file:
+CodedOutputStream	CodedOutputStream.cs	/^  public sealed class CodedOutputStream {$/;"	c	namespace:Google.ProtocolBuffers
+CompareTo	GeneratedExtensionLite.cs	/^    public int CompareTo(IFieldDescriptorLite other) {$/;"	m	class:Google.ProtocolBuffers.ExtensionDescriptorLite
+CompiledRegexWhereAvailable	SilverlightCompatibility.cs	/^        internal const RegexOptions CompiledRegexWhereAvailable = RegexOptions.None;$/;"	f	class:Google.ProtocolBuffers.SilverlightCompatibility	file:
+ComputeBoolSize	CodedOutputStream.cs	/^    public static int ComputeBoolSize(int fieldNumber, bool value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeBoolSizeNoTag	CodedOutputStream.cs	/^    public static int ComputeBoolSizeNoTag(bool value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeBytesSize	CodedOutputStream.cs	/^    public static int ComputeBytesSize(int fieldNumber, ByteString value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeBytesSizeNoTag	CodedOutputStream.cs	/^    public static int ComputeBytesSizeNoTag(ByteString value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeDoubleSize	CodedOutputStream.cs	/^    public static int ComputeDoubleSize(int fieldNumber, double value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeDoubleSizeNoTag	CodedOutputStream.cs	/^    public static int ComputeDoubleSizeNoTag(double value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeEnumSize	CodedOutputStream.cs	/^    public static int ComputeEnumSize(int fieldNumber, int value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeEnumSizeNoTag	CodedOutputStream.cs	/^    public static int ComputeEnumSizeNoTag(int value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeFieldSize	CodedOutputStream.cs	/^    public static int ComputeFieldSize(FieldType fieldType, int fieldNumber, Object value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeFieldSizeNoTag	CodedOutputStream.cs	/^    public static int ComputeFieldSizeNoTag(FieldType fieldType, Object value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeFixed32Size	CodedOutputStream.cs	/^    public static int ComputeFixed32Size(int fieldNumber, uint value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeFixed32SizeNoTag	CodedOutputStream.cs	/^    public static int ComputeFixed32SizeNoTag(uint value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeFixed64Size	CodedOutputStream.cs	/^    public static int ComputeFixed64Size(int fieldNumber, ulong value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeFixed64SizeNoTag	CodedOutputStream.cs	/^    public static int ComputeFixed64SizeNoTag(ulong value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeFloatSize	CodedOutputStream.cs	/^    public static int ComputeFloatSize(int fieldNumber, float value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeFloatSizeNoTag	CodedOutputStream.cs	/^    public static int ComputeFloatSizeNoTag(float value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeGroupSize	CodedOutputStream.cs	/^    public static int ComputeGroupSize(int fieldNumber, IMessageLite value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeGroupSizeNoTag	CodedOutputStream.cs	/^    public static int ComputeGroupSizeNoTag(IMessageLite value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeInt32Size	CodedOutputStream.cs	/^    public static int ComputeInt32Size(int fieldNumber, int value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeInt32SizeNoTag	CodedOutputStream.cs	/^    public static int ComputeInt32SizeNoTag(int value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeInt64Size	CodedOutputStream.cs	/^    public static int ComputeInt64Size(int fieldNumber, long value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeInt64SizeNoTag	CodedOutputStream.cs	/^    public static int ComputeInt64SizeNoTag(long value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeMessageSetExtensionSize	CodedOutputStream.cs	/^    public static int ComputeMessageSetExtensionSize(int fieldNumber, IMessageLite value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeMessageSize	CodedOutputStream.cs	/^    public static int ComputeMessageSize(int fieldNumber, IMessageLite value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeMessageSizeNoTag	CodedOutputStream.cs	/^    public static int ComputeMessageSizeNoTag(IMessageLite value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeRawMessageSetExtensionSize	CodedOutputStream.cs	/^    public static int ComputeRawMessageSetExtensionSize(int fieldNumber, ByteString value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeRawVarint32Size	CodedOutputStream.cs	/^    public static int ComputeRawVarint32Size(uint value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeRawVarint64Size	CodedOutputStream.cs	/^    public static int ComputeRawVarint64Size(ulong value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeSFixed32Size	CodedOutputStream.cs	/^    public static int ComputeSFixed32Size(int fieldNumber, int value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeSFixed32SizeNoTag	CodedOutputStream.cs	/^    public static int ComputeSFixed32SizeNoTag(int value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeSFixed64Size	CodedOutputStream.cs	/^    public static int ComputeSFixed64Size(int fieldNumber, long value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeSFixed64SizeNoTag	CodedOutputStream.cs	/^    public static int ComputeSFixed64SizeNoTag(long value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeSInt32Size	CodedOutputStream.cs	/^    public static int ComputeSInt32Size(int fieldNumber, int value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeSInt32SizeNoTag	CodedOutputStream.cs	/^    public static int ComputeSInt32SizeNoTag(int value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeSInt64Size	CodedOutputStream.cs	/^    public static int ComputeSInt64Size(int fieldNumber, long value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeSInt64SizeNoTag	CodedOutputStream.cs	/^    public static int ComputeSInt64SizeNoTag(long value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeStringSize	CodedOutputStream.cs	/^    public static int ComputeStringSize(int fieldNumber, String value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeStringSizeNoTag	CodedOutputStream.cs	/^    public static int ComputeStringSizeNoTag(String value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeTagSize	CodedOutputStream.cs	/^    public static int ComputeTagSize(int fieldNumber) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeUInt32Size	CodedOutputStream.cs	/^    public static int ComputeUInt32Size(int fieldNumber, uint value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeUInt32SizeNoTag	CodedOutputStream.cs	/^    public static int ComputeUInt32SizeNoTag(uint value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeUInt64Size	CodedOutputStream.cs	/^    public static int ComputeUInt64Size(int fieldNumber, ulong value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeUInt64SizeNoTag	CodedOutputStream.cs	/^    public static int ComputeUInt64SizeNoTag(ulong value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeUnknownGroupSize	CodedOutputStream.cs	/^    public static int ComputeUnknownGroupSize(int fieldNumber,$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+ComputeUnknownGroupSizeNoTag	CodedOutputStream.cs	/^    public static int ComputeUnknownGroupSizeNoTag(IMessageLite value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+Consume	TextTokenizer.cs	/^    public void Consume(string token) {$/;"	m	class:Google.ProtocolBuffers.TextTokenizer
+ConsumeBoolean	TextTokenizer.cs	/^    public bool ConsumeBoolean() {$/;"	m	class:Google.ProtocolBuffers.TextTokenizer
+ConsumeByteString	TextTokenizer.cs	/^    public ByteString ConsumeByteString() {$/;"	m	class:Google.ProtocolBuffers.TextTokenizer
+ConsumeDouble	TextTokenizer.cs	/^    public double ConsumeDouble() {$/;"	m	class:Google.ProtocolBuffers.TextTokenizer
+ConsumeFloat	TextTokenizer.cs	/^    public float ConsumeFloat() {$/;"	m	class:Google.ProtocolBuffers.TextTokenizer
+ConsumeIdentifier	TextTokenizer.cs	/^    public string ConsumeIdentifier() {$/;"	m	class:Google.ProtocolBuffers.TextTokenizer
+ConsumeInt32	TextTokenizer.cs	/^    public int ConsumeInt32()  {$/;"	m	class:Google.ProtocolBuffers.TextTokenizer
+ConsumeInt64	TextTokenizer.cs	/^    public long ConsumeInt64() {$/;"	m	class:Google.ProtocolBuffers.TextTokenizer
+ConsumeString	TextTokenizer.cs	/^    public string ConsumeString() {$/;"	m	class:Google.ProtocolBuffers.TextTokenizer
+ConsumeUInt32	TextTokenizer.cs	/^    public uint ConsumeUInt32() {$/;"	m	class:Google.ProtocolBuffers.TextTokenizer
+ConsumeUInt64	TextTokenizer.cs	/^    public ulong ConsumeUInt64() {$/;"	m	class:Google.ProtocolBuffers.TextTokenizer
+ContainingType	GeneratedExtensionLite.cs	/^    object ContainingType { get; }$/;"	p	interface:Google.ProtocolBuffers.IGeneratedExtensionLite
+ContainingTypeDefaultInstance	GeneratedExtensionLite.cs	/^    public TContainingType ContainingTypeDefaultInstance {$/;"	p	class:Google.ProtocolBuffers.GeneratedExtensionLite
+Contains	SortedList.cs	/^        public bool Contains(KeyValuePair<TKey, TValue> item)$/;"	m	class:Google.ProtocolBuffers.SortedList
+ContainsKey	SortedList.cs	/^        public bool ContainsKey(TKey key)$/;"	m	class:Google.ProtocolBuffers.SortedList
+CopyFrom	ByteString.cs	/^    public static ByteString CopyFrom(byte[] bytes) {$/;"	m	class:Google.ProtocolBuffers.ByteString
+CopyFrom	ByteString.cs	/^    public static ByteString CopyFrom(byte[] bytes, int offset, int count) {$/;"	m	class:Google.ProtocolBuffers.ByteString
+CopyFrom	ByteString.cs	/^    public static ByteString CopyFrom(string text, Encoding encoding) {$/;"	m	class:Google.ProtocolBuffers.ByteString
+CopyFromUtf8	ByteString.cs	/^    public static ByteString CopyFromUtf8(string text) {$/;"	m	class:Google.ProtocolBuffers.ByteString
+CopyTo	SortedList.cs	/^        public void CopyTo(KeyValuePair<TKey, TValue>[] array, int arrayIndex)$/;"	m	class:Google.ProtocolBuffers.SortedList
+Count	SortedList.cs	/^        public int Count$/;"	p	class:Google.ProtocolBuffers.SortedList
+CreateBuilder	DynamicMessage.cs	/^    public static Builder CreateBuilder(IMessage prototype) {$/;"	m	class:Google.ProtocolBuffers.DynamicMessage
+CreateBuilder	DynamicMessage.cs	/^    public static Builder CreateBuilder(MessageDescriptor type) {$/;"	m	class:Google.ProtocolBuffers.DynamicMessage
+CreateBuilder	UnknownField.cs	/^    public static Builder CreateBuilder() {$/;"	m	class:Google.ProtocolBuffers.UnknownField
+CreateBuilder	UnknownField.cs	/^    public static Builder CreateBuilder(UnknownField copyFrom) {$/;"	m	class:Google.ProtocolBuffers.UnknownField
+CreateBuilder	UnknownFieldSet.cs	/^    public static Builder CreateBuilder() {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet
+CreateBuilder	UnknownFieldSet.cs	/^    public static Builder CreateBuilder(UnknownFieldSet original) {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet
+CreateBuilderForField	AbstractBuilder.cs	/^    public abstract IBuilder CreateBuilderForField(FieldDescriptor field);$/;"	m	class:Google.ProtocolBuffers.AbstractBuilder
+CreateBuilderForField	DynamicMessage.cs	/^      public override IBuilder CreateBuilderForField(FieldDescriptor field) {$/;"	m	class:Google.ProtocolBuffers.DynamicMessage.Builder
+CreateBuilderForField	GeneratedBuilder.cs	/^    public override IBuilder CreateBuilderForField(FieldDescriptor field) {$/;"	m	class:Google.ProtocolBuffers.GeneratedBuilder
+CreateBuilderForField	IBuilder.cs	/^    IBuilder CreateBuilderForField(FieldDescriptor field);$/;"	m	interface:Google.ProtocolBuffers.IBuilder
+CreateBuilderForType	AbstractMessageLite.cs	/^    public abstract TBuilder CreateBuilderForType();$/;"	m	class:Google.ProtocolBuffers.AbstractMessageLite
+CreateBuilderForType	DynamicMessage.cs	/^    public override Builder CreateBuilderForType() {$/;"	m	class:Google.ProtocolBuffers.DynamicMessage
+CreateBuilderForType	IMessage.cs	/^    new TBuilder CreateBuilderForType();$/;"	m	interface:Google.ProtocolBuffers.IMessage
+CreateBuilderForType	IMessageLite.cs	/^    TBuilder CreateBuilderForType();$/;"	m	interface:Google.ProtocolBuffers.IMessageLite
+CreateCodedInput	ByteString.cs	/^    public CodedInputStream CreateCodedInput() {$/;"	m	class:Google.ProtocolBuffers.ByteString
+CreateExtensionWriter	ExtendableMessage.cs	/^    protected ExtensionWriter CreateExtensionWriter(ExtendableMessage<TMessage, TBuilder> message) {$/;"	m	class:Google.ProtocolBuffers.ExtendableMessage
+CreateExtensionWriter	ExtendableMessageLite.cs	/^    protected ExtensionWriter CreateExtensionWriter(ExtendableMessageLite<TMessage, TBuilder> message) {$/;"	m	class:Google.ProtocolBuffers.ExtendableMessageLite
+CreateFloatParseException	TextTokenizer.cs	/^    private FormatException CreateFloatParseException(Exception e) {$/;"	m	class:Google.ProtocolBuffers.TextTokenizer	file:
+CreateFormatException	TextTokenizer.cs	/^    public FormatException CreateFormatException(string description) {$/;"	m	class:Google.ProtocolBuffers.TextTokenizer
+CreateFormatExceptionPreviousToken	TextTokenizer.cs	/^    public FormatException CreateFormatExceptionPreviousToken(string description) {$/;"	m	class:Google.ProtocolBuffers.TextTokenizer
+CreateInstance	CodedInputStream.cs	/^    public static CodedInputStream CreateInstance(Stream input) {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+CreateInstance	CodedInputStream.cs	/^    public static CodedInputStream CreateInstance(byte[] buf) {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+CreateInstance	CodedInputStream.cs	/^    public static CodedInputStream CreateInstance(byte[] buf, int offset, int length) {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+CreateInstance	CodedOutputStream.cs	/^    public static CodedOutputStream CreateInstance(Stream output) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+CreateInstance	CodedOutputStream.cs	/^    public static CodedOutputStream CreateInstance(Stream output, int bufferSize) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+CreateInstance	CodedOutputStream.cs	/^    public static CodedOutputStream CreateInstance(byte[] flatArray) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+CreateInstance	CodedOutputStream.cs	/^    public static CodedOutputStream CreateInstance(byte[] flatArray, int offset, int length) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+CreateInstance	ExtensionRegistry.cs	/^    public static ExtensionRegistry CreateInstance() {$/;"	m	class:Google.ProtocolBuffers.ExtensionRegistry
+CreateInstance	ExtensionRegistryLite.cs	/^		public static ExtensionRegistry CreateInstance() {$/;"	m	class:Google.ProtocolBuffers.ExtensionRegistry
+CreateInstance	FieldSet.cs	/^    public static FieldSet CreateInstance() {$/;"	m	class:Google.ProtocolBuffers.FieldSet
+CreateInstance	GeneratedRepeatExtension.cs	/^    public static GeneratedExtensionBase<IList<TExtensionElement>> CreateInstance(FieldDescriptor descriptor) {$/;"	m	class:Google.ProtocolBuffers.GeneratedRepeatExtension
+CreateInstance	GeneratedSingleExtension.cs	/^    public static GeneratedSingleExtension<TExtension> CreateInstance(FieldDescriptor descriptor) {$/;"	m	class:Google.ProtocolBuffers.GeneratedSingleExtension
+CreateIntegerParseException	TextTokenizer.cs	/^    private FormatException CreateIntegerParseException(FormatException e) {$/;"	m	class:Google.ProtocolBuffers.TextTokenizer	file:
+DecodeZigZag32	CodedInputStream.cs	/^    public static int DecodeZigZag32(uint n) {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+DecodeZigZag64	CodedInputStream.cs	/^    public static long DecodeZigZag64(ulong n) {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+DefaultBufferSize	CodedOutputStream.cs	/^    public static readonly int DefaultBufferSize = 4096;$/;"	f	class:Google.ProtocolBuffers.CodedOutputStream
+DefaultInstance	ExtensionInfo.cs	/^		public IMessageLite DefaultInstance { get{$/;"	p	class:Google.ProtocolBuffers.ExtensionInfo
+DefaultInstance	FieldSet.cs	/^    internal static FieldSet DefaultInstance {$/;"	p	class:Google.ProtocolBuffers.FieldSet
+DefaultInstance	UnknownField.cs	/^    public static UnknownField DefaultInstance { $/;"	p	class:Google.ProtocolBuffers.UnknownField
+DefaultInstance	UnknownFieldSet.cs	/^    public static UnknownFieldSet DefaultInstance {$/;"	p	class:Google.ProtocolBuffers.UnknownFieldSet
+DefaultInstanceForType	AbstractBuilderLite.cs	/^    public abstract TMessage DefaultInstanceForType { get; }$/;"	p	class:Google.ProtocolBuffers.AbstractBuilderLite
+DefaultInstanceForType	AbstractMessageLite.cs	/^    public abstract TMessage DefaultInstanceForType { get; }$/;"	p	class:Google.ProtocolBuffers.AbstractMessageLite
+DefaultInstanceForType	DynamicMessage.cs	/^      public override DynamicMessage DefaultInstanceForType {$/;"	p	class:Google.ProtocolBuffers.DynamicMessage.Builder
+DefaultInstanceForType	DynamicMessage.cs	/^    public override DynamicMessage DefaultInstanceForType {$/;"	p	class:Google.ProtocolBuffers.DynamicMessage
+DefaultInstanceForType	IBuilder.cs	/^    new TMessage DefaultInstanceForType { get; }$/;"	p	interface:Google.ProtocolBuffers.IBuilder
+DefaultInstanceForType	IBuilderLite.cs	/^    TMessage DefaultInstanceForType { get; }$/;"	p	interface:Google.ProtocolBuffers.IBuilderLite
+DefaultInstanceForType	IMessage.cs	/^    new TMessage DefaultInstanceForType { get; }$/;"	p	interface:Google.ProtocolBuffers.IMessage
+DefaultInstanceForType	IMessageLite.cs	/^    TMessage DefaultInstanceForType { get; }$/;"	p	interface:Google.ProtocolBuffers.IMessageLite
+DefaultRecursionLimit	CodedInputStream.cs	/^    internal const int DefaultRecursionLimit = 64;$/;"	f	class:Google.ProtocolBuffers.CodedInputStream	file:
+DefaultSizeLimit	CodedInputStream.cs	/^    internal const int DefaultSizeLimit = 64 << 20; \/\/ 64MB$/;"	f	class:Google.ProtocolBuffers.CodedInputStream	file:
+DefaultValue	FieldSet.cs	/^    object DefaultValue { get; }$/;"	p	interface:Google.ProtocolBuffers.IFieldDescriptorLite
+DefaultValue	GeneratedExtensionLite.cs	/^    public TExtensionType DefaultValue {$/;"	p	class:Google.ProtocolBuffers.GeneratedExtensionLite
+DefaultValue	GeneratedExtensionLite.cs	/^    public object DefaultValue {$/;"	p	class:Google.ProtocolBuffers.ExtensionDescriptorLite
+Descriptor	ExtensionInfo.cs	/^		public FieldDescriptor Descriptor { get$/;"	p	class:Google.ProtocolBuffers.ExtensionInfo
+Descriptor	GeneratedExtensionBase.cs	/^    public FieldDescriptor Descriptor {$/;"	p	class:Google.ProtocolBuffers.GeneratedExtensionBase
+Descriptor	GeneratedExtensionLite.cs	/^    IFieldDescriptorLite Descriptor { get; }$/;"	p	interface:Google.ProtocolBuffers.IGeneratedExtensionLite
+Descriptor	GeneratedExtensionLite.cs	/^    public IFieldDescriptorLite Descriptor {$/;"	p	class:Google.ProtocolBuffers.GeneratedExtensionLite
+DescriptorForType	AbstractBuilder.cs	/^    public abstract MessageDescriptor DescriptorForType { get; }$/;"	p	class:Google.ProtocolBuffers.AbstractBuilder
+DescriptorForType	AbstractMessage.cs	/^    public abstract MessageDescriptor DescriptorForType { get; }$/;"	p	class:Google.ProtocolBuffers.AbstractMessage
+DescriptorForType	DynamicMessage.cs	/^      public override MessageDescriptor DescriptorForType {$/;"	p	class:Google.ProtocolBuffers.DynamicMessage.Builder
+DescriptorForType	DynamicMessage.cs	/^    public override MessageDescriptor DescriptorForType {$/;"	p	class:Google.ProtocolBuffers.DynamicMessage
+DescriptorForType	GeneratedBuilder.cs	/^    public override MessageDescriptor DescriptorForType {$/;"	p	class:Google.ProtocolBuffers.GeneratedBuilder
+DescriptorForType	GeneratedMessage.cs	/^    public override MessageDescriptor DescriptorForType {$/;"	p	class:Google.ProtocolBuffers.GeneratedMessage
+DescriptorForType	IBuilder.cs	/^    MessageDescriptor DescriptorForType { get; }$/;"	p	interface:Google.ProtocolBuffers.IBuilder
+DescriptorForType	IMessage.cs	/^    MessageDescriptor DescriptorForType { get; }$/;"	p	interface:Google.ProtocolBuffers.IMessage
+DescriptorForType	IService.cs	/^    ServiceDescriptor DescriptorForType { get; }$/;"	p	interface:Google.ProtocolBuffers.IService
+DoubleInfinity	TextTokenizer.cs	/^    private static readonly Regex DoubleInfinity = new Regex("^-?inf(inity)?$",$/;"	f	class:Google.ProtocolBuffers.TextTokenizer	file:
+DoubleSize	WireFormat.cs	/^    internal const int DoubleSize = 8;$/;"	f	class:Google.ProtocolBuffers.WireFormat	file:
+DynamicMessage	DynamicMessage.cs	/^    private DynamicMessage(MessageDescriptor type, FieldSet fields, UnknownFieldSet unknownFields) {$/;"	m	class:Google.ProtocolBuffers.DynamicMessage	file:
+DynamicMessage	DynamicMessage.cs	/^  public sealed class DynamicMessage : AbstractMessage<DynamicMessage, DynamicMessage.Builder> {$/;"	c	namespace:Google.ProtocolBuffers
+Empty	ByteString.cs	/^    public static ByteString Empty {$/;"	p	class:Google.ProtocolBuffers.ByteString
+Empty	ExtensionRegistryLite.cs	/^		public static ExtensionRegistry Empty {$/;"	p	class:Google.ProtocolBuffers.ExtensionRegistry
+Empty	GeneratedExtensionLite.cs	/^    private static readonly IList<object> Empty = new object[0];$/;"	f	class:Google.ProtocolBuffers.GeneratedExtensionLite	file:
+EmptyTypes	MessageStreamIterator.cs	/^    private static readonly Type[] EmptyTypes = new Type[0];$/;"	f	class:Google.ProtocolBuffers.MessageStreamIterator	file:
+EncodeZigZag32	CodedOutputStream.cs	/^    public static uint EncodeZigZag32(int n) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+EncodeZigZag64	CodedOutputStream.cs	/^    public static ulong EncodeZigZag64(long n) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+EndGroup	WireFormat.cs	/^      EndGroup = 4,$/;"	e	enum:Google.ProtocolBuffers.WireFormat.WireType	file:
+EnumLiteMap	EnumLite.cs	/^    public EnumLiteMap() {$/;"	m	class:Google.ProtocolBuffers.EnumLiteMap
+EnumLiteMap	EnumLite.cs	/^  public class EnumLiteMap<TEnum> : IEnumLiteMap<IEnumLite>$/;"	c	namespace:Google.ProtocolBuffers
+EnumType	FieldSet.cs	/^    IEnumLiteMap EnumType { get; }$/;"	p	interface:Google.ProtocolBuffers.IFieldDescriptorLite
+EnumType	GeneratedExtensionLite.cs	/^    public IEnumLiteMap EnumType {$/;"	p	class:Google.ProtocolBuffers.ExtensionDescriptorLite
+EnumValue	EnumLite.cs	/^      public EnumValue(TEnum value) {$/;"	m	struct:Google.ProtocolBuffers.EnumLiteMap.EnumValue
+EnumValue	EnumLite.cs	/^    struct EnumValue : IEnumLite {$/;"	s	class:Google.ProtocolBuffers.EnumLiteMap
+Equals	AbstractMessage.cs	/^    public override bool Equals(object other) {$/;"	m	class:Google.ProtocolBuffers.AbstractMessage
+Equals	ByteString.cs	/^    public bool Equals(ByteString other) {$/;"	m	class:Google.ProtocolBuffers.ByteString
+Equals	ByteString.cs	/^    public override bool Equals(object obj) {$/;"	m	class:Google.ProtocolBuffers.ByteString
+Equals	ExtendableMessageLite.cs	/^    public override bool Equals(object obj) {$/;"	m	class:Google.ProtocolBuffers.ExtendableMessageLite
+Equals	IMessage.cs	/^    new bool Equals(object other);$/;"	m	interface:Google.ProtocolBuffers.IMessage
+Equals	IMessageLite.cs	/^    bool Equals(object other);$/;"	m	interface:Google.ProtocolBuffers.IMessageLite
+Equals	UnknownField.cs	/^    public override bool Equals(object other) {$/;"	m	class:Google.ProtocolBuffers.UnknownField
+Equals	UnknownFieldSet.cs	/^    public override bool Equals(object other) {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet
+ErrorText	IRpcController.cs	/^    string ErrorText { get; }$/;"	p	interface:Google.ProtocolBuffers.IRpcController
+EscapeBytes	GeneratedMessageLite.cs	/^    private static void EscapeBytes(IEnumerable<byte> input, System.IO.TextWriter writer) {$/;"	m	class:Google.ProtocolBuffers.GeneratedMessageLite	file:
+EscapeBytes	TextFormat.cs	/^    internal static String EscapeBytes(ByteString input) {$/;"	m	class:Google.ProtocolBuffers.TextFormat	file:
+EscapeText	TextFormat.cs	/^    internal static string EscapeText(string input) {$/;"	m	class:Google.ProtocolBuffers.TextFormat	file:
+ExpectedTag	MessageStreamIterator.cs	/^    private static readonly uint ExpectedTag = WireFormat.MakeTag(1, WireFormat.WireType.LengthDelimited);$/;"	f	class:Google.ProtocolBuffers.MessageStreamIterator	file:
+ExtendableBuilder	ExtendableBuilder.cs	/^    protected ExtendableBuilder() {}$/;"	m	class:Google.ProtocolBuffers.ExtendableBuilder
+ExtendableBuilder	ExtendableBuilder.cs	/^  public abstract class ExtendableBuilder<TMessage, TBuilder> : GeneratedBuilder<TMessage, TBuilder>$/;"	c	namespace:Google.ProtocolBuffers
+ExtendableBuilderLite	ExtendableBuilderLite.cs	/^    protected ExtendableBuilderLite() { }$/;"	m	class:Google.ProtocolBuffers.ExtendableBuilderLite
+ExtendableBuilderLite	ExtendableBuilderLite.cs	/^  public abstract class ExtendableBuilderLite<TMessage, TBuilder> : GeneratedBuilderLite<TMessage, TBuilder>$/;"	c	namespace:Google.ProtocolBuffers
+ExtendableMessage	ExtendableMessage.cs	/^    protected ExtendableMessage() {}$/;"	m	class:Google.ProtocolBuffers.ExtendableMessage
+ExtendableMessage	ExtendableMessage.cs	/^  public abstract class ExtendableMessage<TMessage, TBuilder> : GeneratedMessage<TMessage, TBuilder>$/;"	c	namespace:Google.ProtocolBuffers
+ExtendableMessageLite	ExtendableMessageLite.cs	/^    protected ExtendableMessageLite() { }$/;"	m	class:Google.ProtocolBuffers.ExtendableMessageLite
+ExtendableMessageLite	ExtendableMessageLite.cs	/^  public abstract class ExtendableMessageLite<TMessage, TBuilder> : GeneratedMessageLite<TMessage, TBuilder>$/;"	c	namespace:Google.ProtocolBuffers
+ExtensionDescriptorLite	GeneratedExtensionLite.cs	/^    public ExtensionDescriptorLite(string fullName, IEnumLiteMap enumTypeMap, int number, FieldType type, object defaultValue, bool isRepeated, bool isPacked) {$/;"	m	class:Google.ProtocolBuffers.ExtensionDescriptorLite
+ExtensionDescriptorLite	GeneratedExtensionLite.cs	/^  public class ExtensionDescriptorLite : IFieldDescriptorLite {$/;"	c	namespace:Google.ProtocolBuffers
+ExtensionInfo	ExtensionInfo.cs	/^    internal ExtensionInfo(FieldDescriptor descriptor) : this(descriptor, null) {$/;"	m	class:Google.ProtocolBuffers.ExtensionInfo	file:
+ExtensionInfo	ExtensionInfo.cs	/^    internal ExtensionInfo(FieldDescriptor descriptor, IMessageLite defaultInstance) {$/;"	m	class:Google.ProtocolBuffers.ExtensionInfo	file:
+ExtensionInfo	ExtensionInfo.cs	/^  public sealed class ExtensionInfo : IGeneratedExtensionLite {$/;"	c	namespace:Google.ProtocolBuffers
+ExtensionRegistry	ExtensionRegistry.cs	/^    private ExtensionRegistry(IDictionary<String, ExtensionInfo> extensionsByName,$/;"	m	class:Google.ProtocolBuffers.ExtensionRegistry	file:
+ExtensionRegistry	ExtensionRegistry.cs	/^  public sealed partial class ExtensionRegistry {$/;"	c	namespace:Google.ProtocolBuffers
+ExtensionRegistry	ExtensionRegistryLite.cs	/^  public sealed partial class ExtensionRegistry {$/;"	c	namespace:Google.ProtocolBuffers
+ExtensionWriter	ExtendableMessage.cs	/^      internal ExtensionWriter(ExtendableMessage<TMessage, TBuilder> message) {$/;"	m	class:Google.ProtocolBuffers.ExtendableMessage.ExtensionWriter	file:
+ExtensionWriter	ExtendableMessage.cs	/^    protected class ExtensionWriter {$/;"	c	class:Google.ProtocolBuffers.ExtendableMessage
+ExtensionWriter	ExtendableMessageLite.cs	/^      internal ExtensionWriter(ExtendableMessageLite<TMessage, TBuilder> message) {$/;"	m	class:Google.ProtocolBuffers.ExtendableMessageLite.ExtensionWriter	file:
+ExtensionWriter	ExtendableMessageLite.cs	/^    protected class ExtensionWriter {$/;"	c	class:Google.ProtocolBuffers.ExtendableMessageLite
+Extensions	ExtendableMessage.cs	/^    internal FieldSet Extensions {$/;"	p	class:Google.ProtocolBuffers.ExtendableMessage
+Extensions	ExtendableMessageLite.cs	/^    internal FieldSet Extensions {$/;"	p	class:Google.ProtocolBuffers.ExtendableMessageLite
+ExtensionsAreInitialized	ExtendableMessage.cs	/^    protected bool ExtensionsAreInitialized {$/;"	p	class:Google.ProtocolBuffers.ExtendableMessage
+ExtensionsAreInitialized	ExtendableMessageLite.cs	/^    protected bool ExtensionsAreInitialized {$/;"	p	class:Google.ProtocolBuffers.ExtendableMessageLite
+ExtensionsSerializedSize	ExtendableMessage.cs	/^    protected int ExtensionsSerializedSize {$/;"	p	class:Google.ProtocolBuffers.ExtendableMessage
+ExtensionsSerializedSize	ExtendableMessageLite.cs	/^    protected int ExtensionsSerializedSize {$/;"	p	class:Google.ProtocolBuffers.ExtendableMessageLite
+Failed	IRpcController.cs	/^    bool Failed { get; }$/;"	p	interface:Google.ProtocolBuffers.IRpcController
+FieldAccessorsFromBuilder	GeneratedMessage.cs	/^    internal FieldAccessorTable<TMessage, TBuilder> FieldAccessorsFromBuilder {$/;"	p	class:Google.ProtocolBuffers.GeneratedMessage
+FieldDictionary	UnknownFieldSet.cs	/^    public IDictionary<int, UnknownField> FieldDictionary {$/;"	p	class:Google.ProtocolBuffers.UnknownFieldSet
+FieldNumber	FieldSet.cs	/^    int FieldNumber { get; }$/;"	p	interface:Google.ProtocolBuffers.IFieldDescriptorLite
+FieldNumber	GeneratedExtensionLite.cs	/^    public int FieldNumber {$/;"	p	class:Google.ProtocolBuffers.ExtensionDescriptorLite
+FieldSet	FieldSet.cs	/^    private FieldSet(IDictionary<IFieldDescriptorLite, object> fields) {$/;"	m	class:Google.ProtocolBuffers.FieldSet	file:
+FieldSet	FieldSet.cs	/^  internal sealed class FieldSet {$/;"	c	namespace:Google.ProtocolBuffers
+FieldType	FieldSet.cs	/^    FieldType FieldType { get; }$/;"	p	interface:Google.ProtocolBuffers.IFieldDescriptorLite
+FieldType	GeneratedExtensionLite.cs	/^    public FieldType FieldType {$/;"	p	class:Google.ProtocolBuffers.ExtensionDescriptorLite
+FindBuilderType	MessageStreamIterator.cs	/^    private static Type FindBuilderType() {$/;"	m	class:Google.ProtocolBuffers.MessageStreamIterator	file:
+FindMissingFields	UninitializedMessageException.cs	/^    private static IList<String> FindMissingFields(IMessage message) {$/;"	m	class:Google.ProtocolBuffers.UninitializedMessageException	file:
+FindMissingFields	UninitializedMessageException.cs	/^    private static void FindMissingFields(IMessage message, String prefix, List<String> results) {$/;"	m	class:Google.ProtocolBuffers.UninitializedMessageException	file:
+FindValueByNumber	EnumLite.cs	/^    IEnumLite FindValueByNumber(int number);$/;"	m	interface:Google.ProtocolBuffers.IEnumLiteMap
+FindValueByNumber	EnumLite.cs	/^    new T FindValueByNumber(int number);$/;"	m	interface:Google.ProtocolBuffers.IEnumLiteMap
+FindValueByNumber	EnumLite.cs	/^    public IEnumLite FindValueByNumber(int number) {$/;"	m	class:Google.ProtocolBuffers.EnumLiteMap
+Fixed32	WireFormat.cs	/^      Fixed32 = 5$/;"	e	enum:Google.ProtocolBuffers.WireFormat.WireType	file:
+Fixed32List	UnknownField.cs	/^    public IList<uint> Fixed32List {$/;"	p	class:Google.ProtocolBuffers.UnknownField
+Fixed32Size	WireFormat.cs	/^    internal const int Fixed32Size = 4;$/;"	f	class:Google.ProtocolBuffers.WireFormat	file:
+Fixed64	WireFormat.cs	/^      Fixed64 = 1,$/;"	e	enum:Google.ProtocolBuffers.WireFormat.WireType	file:
+Fixed64List	UnknownField.cs	/^    public IList<ulong> Fixed64List {$/;"	p	class:Google.ProtocolBuffers.UnknownField
+Fixed64Size	WireFormat.cs	/^    internal const int Fixed64Size = 8;$/;"	f	class:Google.ProtocolBuffers.WireFormat	file:
+FloatInfinity	TextTokenizer.cs	/^    private static readonly Regex FloatInfinity = new Regex("^-?inf(inity)?f?$",$/;"	f	class:Google.ProtocolBuffers.TextTokenizer	file:
+FloatNan	TextTokenizer.cs	/^    private static readonly Regex FloatNan = new Regex("^nanf?$",$/;"	f	class:Google.ProtocolBuffers.TextTokenizer	file:
+FloatSize	WireFormat.cs	/^    internal const int FloatSize = 4;$/;"	f	class:Google.ProtocolBuffers.WireFormat	file:
+Flush	AbstractBuilderLite.cs	/^      public override void Flush() {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilderLite.LimitedInputStream
+Flush	CodedOutputStream.cs	/^    public void Flush() {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+Flush	MessageStreamWriter.cs	/^    public void Flush() {$/;"	m	class:Google.ProtocolBuffers.T
+FromBase64	ByteString.cs	/^    public static ByteString FromBase64(string bytes) {$/;"	m	class:Google.ProtocolBuffers.ByteString
+FromFile	MessageStreamIterator.cs	/^    public static MessageStreamIterator<TMessage> FromFile(string file) {$/;"	m	class:Google.ProtocolBuffers.MessageStreamIterator
+FromReflectionType	GeneratedExtensionBase.cs	/^    public abstract object FromReflectionType(object value);$/;"	m	class:Google.ProtocolBuffers.GeneratedExtensionBase
+FromReflectionType	GeneratedExtensionLite.cs	/^    public override object FromReflectionType(object value) {$/;"	m	class:Google.ProtocolBuffers.GeneratedRepeatExtensionLite
+FromReflectionType	GeneratedExtensionLite.cs	/^    public virtual object FromReflectionType(object value) {$/;"	m	class:Google.ProtocolBuffers.GeneratedExtensionLite
+FromReflectionType	GeneratedRepeatExtension.cs	/^    public override object FromReflectionType(object value) {$/;"	m	class:Google.ProtocolBuffers.GeneratedRepeatExtension
+FromReflectionType	GeneratedSingleExtension.cs	/^    public override object FromReflectionType(object value) {$/;"	m	class:Google.ProtocolBuffers.GeneratedSingleExtension
+FromStreamProvider	MessageStreamIterator.cs	/^    public static MessageStreamIterator<TMessage> FromStreamProvider(StreamProvider streamProvider) {$/;"	m	class:Google.ProtocolBuffers.MessageStreamIterator
+FullName	FieldSet.cs	/^    string FullName { get; }$/;"	p	interface:Google.ProtocolBuffers.IFieldDescriptorLite
+FullName	GeneratedExtensionLite.cs	/^    public string FullName { get { return fullName; } }$/;"	p	class:Google.ProtocolBuffers.ExtensionDescriptorLite
+Func	Delegates.cs	/^  internal delegate TResult Func<T, TResult>(T arg);$/;"	m	namespace:Google.ProtocolBuffers
+Func	Delegates.cs	/^  internal delegate TResult Func<T1, T2, T3, T4, TResult>(T1 arg1, T2 arg2, T3 arg3, T4 arg4);$/;"	m	namespace:Google.ProtocolBuffers
+Func	Delegates.cs	/^  internal delegate TResult Func<T1, T2, T3, TResult>(T1 arg1, T2 arg2, T3 arg3);$/;"	m	namespace:Google.ProtocolBuffers
+Func	Delegates.cs	/^  internal delegate TResult Func<T1, T2, TResult>(T1 arg1, T2 arg2);$/;"	m	namespace:Google.ProtocolBuffers
+Func	Delegates.cs	/^  internal delegate TResult Func<TResult>();$/;"	m	namespace:Google.ProtocolBuffers
+GeneratedBuilder	GeneratedBuilder.cs	/^  public abstract class GeneratedBuilder<TMessage, TBuilder> : AbstractBuilder<TMessage, TBuilder>$/;"	c	namespace:Google.ProtocolBuffers
+GeneratedBuilderLite	GeneratedBuilderLite.cs	/^  public abstract class GeneratedBuilderLite<TMessage, TBuilder> : AbstractBuilderLite<TMessage, TBuilder>$/;"	c	namespace:Google.ProtocolBuffers
+GeneratedExtensionBase	GeneratedExtensionBase.cs	/^    protected GeneratedExtensionBase(FieldDescriptor descriptor, Type singularExtensionType) {$/;"	m	class:Google.ProtocolBuffers.GeneratedExtensionBase
+GeneratedExtensionBase	GeneratedExtensionBase.cs	/^  public abstract class GeneratedExtensionBase<TExtension> {$/;"	c	namespace:Google.ProtocolBuffers
+GeneratedExtensionLite	GeneratedExtensionLite.cs	/^    protected GeneratedExtensionLite($/;"	m	class:Google.ProtocolBuffers.GeneratedExtensionLite
+GeneratedExtensionLite	GeneratedExtensionLite.cs	/^    public GeneratedExtensionLite($/;"	m	class:Google.ProtocolBuffers.GeneratedExtensionLite
+GeneratedExtensionLite	GeneratedExtensionLite.cs	/^  public class GeneratedExtensionLite<TContainingType, TExtensionType> : IGeneratedExtensionLite$/;"	c	namespace:Google.ProtocolBuffers
+GeneratedMessage	GeneratedMessage.cs	/^  public abstract class GeneratedMessage<TMessage, TBuilder> : AbstractMessage<TMessage, TBuilder>$/;"	c	namespace:Google.ProtocolBuffers
+GeneratedMessageLite	GeneratedMessageLite.cs	/^  public abstract class GeneratedMessageLite<TMessage, TBuilder> : AbstractMessageLite<TMessage, TBuilder>$/;"	c	namespace:Google.ProtocolBuffers
+GeneratedRepeatExtension	GeneratedRepeatExtension.cs	/^    private GeneratedRepeatExtension(FieldDescriptor field) : base(field, typeof(TExtensionElement)) {$/;"	m	class:Google.ProtocolBuffers.GeneratedRepeatExtension	file:
+GeneratedRepeatExtension	GeneratedRepeatExtension.cs	/^  public sealed class GeneratedRepeatExtension<TExtensionElement> : GeneratedExtensionBase<IList<TExtensionElement>> {$/;"	c	namespace:Google.ProtocolBuffers
+GeneratedRepeatExtensionLite	GeneratedExtensionLite.cs	/^    public GeneratedRepeatExtensionLite(string fullName, TContainingType containingTypeDefaultInstance,$/;"	m	class:Google.ProtocolBuffers.GeneratedRepeatExtensionLite
+GeneratedRepeatExtensionLite	GeneratedExtensionLite.cs	/^  public class GeneratedRepeatExtensionLite<TContainingType, TExtensionType> : GeneratedExtensionLite<TContainingType, IList<TExtensionType>>$/;"	c	namespace:Google.ProtocolBuffers
+GeneratedSingleExtension	GeneratedSingleExtension.cs	/^    internal GeneratedSingleExtension(FieldDescriptor descriptor) : base(descriptor, typeof(TExtension)) {$/;"	m	class:Google.ProtocolBuffers.GeneratedSingleExtension	file:
+GeneratedSingleExtension	GeneratedSingleExtension.cs	/^  public sealed class GeneratedSingleExtension<TExtension> : GeneratedExtensionBase<TExtension>  {$/;"	c	namespace:Google.ProtocolBuffers
+GetDefaultInstance	DynamicMessage.cs	/^    public static DynamicMessage GetDefaultInstance(MessageDescriptor type) {$/;"	m	class:Google.ProtocolBuffers.DynamicMessage
+GetDefaultMessage	MessageUtil.cs	/^    public static IMessage GetDefaultMessage(Type type) {$/;"	m	class:Google.ProtocolBuffers.MessageUtil
+GetDefaultMessage	MessageUtil.cs	/^    public static IMessage GetDefaultMessage(string typeName) {$/;"	m	class:Google.ProtocolBuffers.MessageUtil
+GetEnumerator	ByteString.cs	/^    public IEnumerator<byte> GetEnumerator() {$/;"	m	class:Google.ProtocolBuffers.ByteString
+GetEnumerator	FieldSet.cs	/^    internal IEnumerator<KeyValuePair<IFieldDescriptorLite, object>> GetEnumerator() {$/;"	m	class:Google.ProtocolBuffers.FieldSet	file:
+GetEnumerator	MessageStreamIterator.cs	/^    public IEnumerator<TMessage> GetEnumerator() {$/;"	m	class:Google.ProtocolBuffers.MessageStreamIterator
+GetEnumerator	SortedList.cs	/^        public IEnumerator<KeyValuePair<TKey, TValue>> GetEnumerator()$/;"	m	class:Google.ProtocolBuffers.SortedList
+GetExtension	ExtendableBuilder.cs	/^    public TExtension GetExtension<TExtension>(GeneratedExtensionBase<IList<TExtension>> extension, int index) {$/;"	m	class:Google.ProtocolBuffers.ExtendableBuilder
+GetExtension	ExtendableBuilder.cs	/^    public TExtension GetExtension<TExtension>(GeneratedExtensionBase<TExtension> extension) {$/;"	m	class:Google.ProtocolBuffers.ExtendableBuilder
+GetExtension	ExtendableBuilderLite.cs	/^    public TExtension GetExtension<TExtension>(GeneratedExtensionLite<TMessage, IList<TExtension>> extension, int index) {$/;"	m	class:Google.ProtocolBuffers.ExtendableBuilderLite
+GetExtension	ExtendableBuilderLite.cs	/^    public TExtension GetExtension<TExtension>(GeneratedExtensionLite<TMessage, TExtension> extension) {$/;"	m	class:Google.ProtocolBuffers.ExtendableBuilderLite
+GetExtension	ExtendableMessage.cs	/^    public TExtension GetExtension<TExtension>(GeneratedExtensionBase<IList<TExtension>> extension, int index) {$/;"	m	class:Google.ProtocolBuffers.ExtendableMessage
+GetExtension	ExtendableMessage.cs	/^    public TExtension GetExtension<TExtension>(GeneratedExtensionBase<TExtension> extension) {$/;"	m	class:Google.ProtocolBuffers.ExtendableMessage
+GetExtension	ExtendableMessageLite.cs	/^    public TExtension GetExtension<TExtension>(GeneratedExtensionLite<TMessage, IList<TExtension>> extension, int index) {$/;"	m	class:Google.ProtocolBuffers.ExtendableMessageLite
+GetExtension	ExtendableMessageLite.cs	/^    public TExtension GetExtension<TExtension>(GeneratedExtensionLite<TMessage, TExtension> extension) {$/;"	m	class:Google.ProtocolBuffers.ExtendableMessageLite
+GetExtensionCount	ExtendableBuilder.cs	/^    public int GetExtensionCount<TExtension>(GeneratedExtensionBase<IList<TExtension>> extension) {$/;"	m	class:Google.ProtocolBuffers.ExtendableBuilder
+GetExtensionCount	ExtendableBuilderLite.cs	/^    public int GetExtensionCount<TExtension>(GeneratedExtensionLite<TMessage, IList<TExtension>> extension) {$/;"	m	class:Google.ProtocolBuffers.ExtendableBuilderLite
+GetExtensionCount	ExtendableMessage.cs	/^    public int GetExtensionCount<TExtension>(GeneratedExtensionBase<IList<TExtension>> extension) {$/;"	m	class:Google.ProtocolBuffers.ExtendableMessage
+GetExtensionCount	ExtendableMessageLite.cs	/^    public int GetExtensionCount<TExtension>(GeneratedExtensionLite<TMessage, IList<TExtension>> extension) {$/;"	m	class:Google.ProtocolBuffers.ExtendableMessageLite
+GetFieldBuilder	UnknownFieldSet.cs	/^      private UnknownField.Builder GetFieldBuilder(int number) {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet.Builder	file:
+GetHashCode	AbstractMessage.cs	/^    public override int GetHashCode() {$/;"	m	class:Google.ProtocolBuffers.AbstractMessage
+GetHashCode	ByteString.cs	/^    public override int GetHashCode() {$/;"	m	class:Google.ProtocolBuffers.ByteString
+GetHashCode	ExtendableMessageLite.cs	/^    public override int GetHashCode() {$/;"	m	class:Google.ProtocolBuffers.ExtendableMessageLite
+GetHashCode	IMessage.cs	/^    new int GetHashCode();$/;"	m	interface:Google.ProtocolBuffers.IMessage
+GetHashCode	IMessageLite.cs	/^    int GetHashCode();$/;"	m	interface:Google.ProtocolBuffers.IMessageLite
+GetHashCode	UnknownField.cs	/^    public override int GetHashCode() {$/;"	m	class:Google.ProtocolBuffers.UnknownField
+GetHashCode	UnknownFieldSet.cs	/^    public override int GetHashCode() {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet
+GetMutableFieldMap	GeneratedMessage.cs	/^    internal IDictionary<FieldDescriptor, Object> GetMutableFieldMap() {$/;"	m	class:Google.ProtocolBuffers.GeneratedMessage	file:
+GetRepeatedFieldCount	AbstractBuilder.cs	/^    public abstract int GetRepeatedFieldCount(FieldDescriptor field);$/;"	m	class:Google.ProtocolBuffers.AbstractBuilder
+GetRepeatedFieldCount	AbstractMessage.cs	/^    public abstract int GetRepeatedFieldCount(FieldDescriptor field);$/;"	m	class:Google.ProtocolBuffers.AbstractMessage
+GetRepeatedFieldCount	DynamicMessage.cs	/^      public override int GetRepeatedFieldCount(FieldDescriptor field) {$/;"	m	class:Google.ProtocolBuffers.DynamicMessage.Builder
+GetRepeatedFieldCount	DynamicMessage.cs	/^    public override int GetRepeatedFieldCount(FieldDescriptor field) {$/;"	m	class:Google.ProtocolBuffers.DynamicMessage
+GetRepeatedFieldCount	ExtendableMessage.cs	/^    public override int GetRepeatedFieldCount(FieldDescriptor field) {$/;"	m	class:Google.ProtocolBuffers.ExtendableMessage
+GetRepeatedFieldCount	FieldSet.cs	/^    public int GetRepeatedFieldCount(IFieldDescriptorLite field) {$/;"	m	class:Google.ProtocolBuffers.FieldSet
+GetRepeatedFieldCount	GeneratedBuilder.cs	/^    public override int GetRepeatedFieldCount(FieldDescriptor field) {$/;"	m	class:Google.ProtocolBuffers.GeneratedBuilder
+GetRepeatedFieldCount	GeneratedMessage.cs	/^    public override int GetRepeatedFieldCount(FieldDescriptor field) {$/;"	m	class:Google.ProtocolBuffers.GeneratedMessage
+GetRepeatedFieldCount	IBuilder.cs	/^    int GetRepeatedFieldCount(FieldDescriptor field);$/;"	m	interface:Google.ProtocolBuffers.IBuilder
+GetRepeatedFieldCount	IMessage.cs	/^    int GetRepeatedFieldCount(FieldDescriptor field);$/;"	m	interface:Google.ProtocolBuffers.IMessage
+GetRequestPrototype	IService.cs	/^    IMessage GetRequestPrototype(MethodDescriptor method);$/;"	m	interface:Google.ProtocolBuffers.IService
+GetResponsePrototype	IService.cs	/^    IMessage GetResponsePrototype(MethodDescriptor method);$/;"	m	interface:Google.ProtocolBuffers.IService
+GetSerializedSize	UnknownField.cs	/^    public int GetSerializedSize(int fieldNumber) {$/;"	m	class:Google.ProtocolBuffers.UnknownField
+GetSerializedSizeAsMessageSetExtension	UnknownField.cs	/^    public int GetSerializedSizeAsMessageSetExtension(int fieldNumber) {$/;"	m	class:Google.ProtocolBuffers.UnknownField
+GetTagFieldNumber	WireFormat.cs	/^    public static int GetTagFieldNumber(uint tag) {$/;"	m	class:Google.ProtocolBuffers.WireFormat
+GetTagWireType	WireFormat.cs	/^    public static WireType GetTagWireType(uint tag) {$/;"	m	class:Google.ProtocolBuffers.WireFormat
+GetWireType	WireFormat.cs	/^    internal static WireType GetWireType(FieldDescriptor descriptor) {$/;"	m	class:Google.ProtocolBuffers.WireFormat	file:
+GetWireType	WireFormat.cs	/^    public static WireType GetWireType(FieldType fieldType) {$/;"	m	class:Google.ProtocolBuffers.WireFormat
+Google.ProtocolBuffers	AbstractBuilder.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	AbstractBuilderLite.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	AbstractMessage.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	AbstractMessageLite.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	ByteString.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	CodedInputStream.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	CodedOutputStream.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	Delegates.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	DynamicMessage.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	EnumLite.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	ExtendableBuilder.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	ExtendableBuilderLite.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	ExtendableMessage.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	ExtendableMessageLite.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	ExtensionInfo.cs	/^namespace Google.ProtocolBuffers$/;"	n
+Google.ProtocolBuffers	ExtensionRegistry.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	ExtensionRegistryLite.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	FieldSet.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	GeneratedBuilder.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	GeneratedBuilderLite.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	GeneratedExtensionBase.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	GeneratedExtensionLite.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	GeneratedMessage.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	GeneratedMessageLite.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	GeneratedRepeatExtension.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	GeneratedSingleExtension.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	IBuilder.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	IBuilderLite.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	IMessage.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	IMessageLite.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	IRpcChannel.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	IRpcController.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	IService.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	InvalidProtocolBufferException.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	MessageStreamIterator.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	MessageStreamWriter.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	MessageUtil.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	NameHelpers.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	RpcUtil.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	SilverlightCompatibility.cs	/^namespace Google.ProtocolBuffers$/;"	n
+Google.ProtocolBuffers	SortedList.cs	/^namespace Google.ProtocolBuffers$/;"	n
+Google.ProtocolBuffers	TextFormat.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	TextGenerator.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	TextTokenizer.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	ThrowHelper.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	UninitializedMessageException.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	UnknownField.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	UnknownFieldSet.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+Google.ProtocolBuffers	WireFormat.cs	/^namespace Google.ProtocolBuffers {$/;"	n
+GroupList	UnknownField.cs	/^    public IList<UnknownFieldSet> GroupList {$/;"	p	class:Google.ProtocolBuffers.UnknownField
+HasExtension	ExtendableBuilder.cs	/^    public bool HasExtension<TExtension>(GeneratedExtensionBase<TExtension> extension) {$/;"	m	class:Google.ProtocolBuffers.ExtendableBuilder
+HasExtension	ExtendableBuilderLite.cs	/^    public bool HasExtension<TExtension>(GeneratedExtensionLite<TMessage, TExtension> extension) {$/;"	m	class:Google.ProtocolBuffers.ExtendableBuilderLite
+HasExtension	ExtendableMessage.cs	/^    public bool HasExtension<TExtension>(GeneratedExtensionBase<TExtension> extension) {$/;"	m	class:Google.ProtocolBuffers.ExtendableMessage
+HasExtension	ExtendableMessageLite.cs	/^    public bool HasExtension<TExtension>(GeneratedExtensionLite<TMessage, TExtension> extension) {$/;"	m	class:Google.ProtocolBuffers.ExtendableMessageLite
+HasField	AbstractBuilder.cs	/^    public abstract bool HasField(FieldDescriptor field);$/;"	m	class:Google.ProtocolBuffers.AbstractBuilder
+HasField	AbstractMessage.cs	/^    public abstract bool HasField(FieldDescriptor field);$/;"	m	class:Google.ProtocolBuffers.AbstractMessage
+HasField	DynamicMessage.cs	/^      public override bool HasField(FieldDescriptor field) {$/;"	m	class:Google.ProtocolBuffers.DynamicMessage.Builder
+HasField	DynamicMessage.cs	/^    public override bool HasField(FieldDescriptor field) {$/;"	m	class:Google.ProtocolBuffers.DynamicMessage
+HasField	ExtendableMessage.cs	/^    public override bool HasField(FieldDescriptor field) {$/;"	m	class:Google.ProtocolBuffers.ExtendableMessage
+HasField	FieldSet.cs	/^    public bool HasField(IFieldDescriptorLite field) {$/;"	m	class:Google.ProtocolBuffers.FieldSet
+HasField	GeneratedBuilder.cs	/^    public override bool HasField(FieldDescriptor field) {$/;"	m	class:Google.ProtocolBuffers.GeneratedBuilder
+HasField	GeneratedMessage.cs	/^    public override bool HasField(FieldDescriptor field) {$/;"	m	class:Google.ProtocolBuffers.GeneratedMessage
+HasField	IBuilder.cs	/^    bool HasField(FieldDescriptor field);$/;"	m	interface:Google.ProtocolBuffers.IBuilder
+HasField	IMessage.cs	/^    bool HasField(FieldDescriptor field);$/;"	m	interface:Google.ProtocolBuffers.IMessage
+HasField	UnknownFieldSet.cs	/^      public bool HasField(int number) {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet.Builder
+HasField	UnknownFieldSet.cs	/^    public bool HasField(int field) {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet
+IBuilder	IBuilder.cs	/^  public interface IBuilder : IBuilderLite {$/;"	i	namespace:Google.ProtocolBuffers
+IBuilder	IBuilder.cs	/^  public interface IBuilder<TMessage, TBuilder> : IBuilder, IBuilderLite<TMessage, TBuilder>$/;"	i	namespace:Google.ProtocolBuffers
+IBuilder.WeakAddRepeatedField	AbstractBuilder.cs	/^    IBuilder IBuilder.WeakAddRepeatedField(FieldDescriptor field, object value) {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilder	file:
+IBuilder.WeakBuild	AbstractBuilder.cs	/^    IMessage IBuilder.WeakBuild() {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilder	file:
+IBuilder.WeakBuildPartial	AbstractBuilder.cs	/^    IMessage IBuilder.WeakBuildPartial() {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilder	file:
+IBuilder.WeakClear	AbstractBuilder.cs	/^    IBuilder IBuilder.WeakClear() {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilder	file:
+IBuilder.WeakClearField	AbstractBuilder.cs	/^    IBuilder IBuilder.WeakClearField(FieldDescriptor field) {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilder	file:
+IBuilder.WeakClone	AbstractBuilder.cs	/^    IBuilder IBuilder.WeakClone() {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilder	file:
+IBuilder.WeakDefaultInstanceForType	AbstractBuilder.cs	/^    IMessage IBuilder.WeakDefaultInstanceForType {$/;"	p	class:Google.ProtocolBuffers.AbstractBuilder
+IBuilder.WeakMergeFrom	AbstractBuilder.cs	/^    IBuilder IBuilder.WeakMergeFrom(ByteString data) {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilder	file:
+IBuilder.WeakMergeFrom	AbstractBuilder.cs	/^    IBuilder IBuilder.WeakMergeFrom(ByteString data, ExtensionRegistry registry) {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilder	file:
+IBuilder.WeakMergeFrom	AbstractBuilder.cs	/^    IBuilder IBuilder.WeakMergeFrom(CodedInputStream input) {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilder	file:
+IBuilder.WeakMergeFrom	AbstractBuilder.cs	/^    IBuilder IBuilder.WeakMergeFrom(CodedInputStream input, ExtensionRegistry registry) {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilder	file:
+IBuilder.WeakMergeFrom	AbstractBuilder.cs	/^    IBuilder IBuilder.WeakMergeFrom(IMessage message) {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilder	file:
+IBuilderLite	IBuilderLite.cs	/^  public interface IBuilderLite {$/;"	i	namespace:Google.ProtocolBuffers
+IBuilderLite	IBuilderLite.cs	/^  public interface IBuilderLite<TMessage, TBuilder> : IBuilderLite$/;"	i	namespace:Google.ProtocolBuffers
+IBuilderLite.IsInitialized	UnknownFieldSet.cs	/^      bool IBuilderLite.IsInitialized {$/;"	p	class:Google.ProtocolBuffers.UnknownFieldSet.Builder
+IBuilderLite.WeakBuild	AbstractBuilderLite.cs	/^    IMessageLite IBuilderLite.WeakBuild() {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilderLite	file:
+IBuilderLite.WeakBuild	UnknownFieldSet.cs	/^      IMessageLite IBuilderLite.WeakBuild() {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet.Builder	file:
+IBuilderLite.WeakBuildPartial	AbstractBuilderLite.cs	/^    IMessageLite IBuilderLite.WeakBuildPartial() {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilderLite	file:
+IBuilderLite.WeakBuildPartial	UnknownFieldSet.cs	/^      IMessageLite IBuilderLite.WeakBuildPartial() {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet.Builder	file:
+IBuilderLite.WeakClear	AbstractBuilderLite.cs	/^    IBuilderLite IBuilderLite.WeakClear() {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilderLite	file:
+IBuilderLite.WeakClear	UnknownFieldSet.cs	/^      IBuilderLite IBuilderLite.WeakClear() {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet.Builder	file:
+IBuilderLite.WeakClone	AbstractBuilderLite.cs	/^    IBuilderLite IBuilderLite.WeakClone() {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilderLite	file:
+IBuilderLite.WeakClone	UnknownFieldSet.cs	/^      IBuilderLite IBuilderLite.WeakClone() {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet.Builder	file:
+IBuilderLite.WeakDefaultInstanceForType	AbstractBuilderLite.cs	/^    IMessageLite IBuilderLite.WeakDefaultInstanceForType {$/;"	p	class:Google.ProtocolBuffers.AbstractBuilderLite
+IBuilderLite.WeakDefaultInstanceForType	UnknownFieldSet.cs	/^      IMessageLite IBuilderLite.WeakDefaultInstanceForType {$/;"	p	class:Google.ProtocolBuffers.UnknownFieldSet.Builder
+IBuilderLite.WeakMergeFrom	AbstractBuilderLite.cs	/^    IBuilderLite IBuilderLite.WeakMergeFrom(ByteString data) {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilderLite	file:
+IBuilderLite.WeakMergeFrom	AbstractBuilderLite.cs	/^    IBuilderLite IBuilderLite.WeakMergeFrom(ByteString data, ExtensionRegistry registry) {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilderLite	file:
+IBuilderLite.WeakMergeFrom	AbstractBuilderLite.cs	/^    IBuilderLite IBuilderLite.WeakMergeFrom(CodedInputStream input) {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilderLite	file:
+IBuilderLite.WeakMergeFrom	AbstractBuilderLite.cs	/^    IBuilderLite IBuilderLite.WeakMergeFrom(CodedInputStream input, ExtensionRegistry registry) {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilderLite	file:
+IBuilderLite.WeakMergeFrom	AbstractBuilderLite.cs	/^    IBuilderLite IBuilderLite.WeakMergeFrom(IMessageLite message) {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilderLite	file:
+IBuilderLite.WeakMergeFrom	UnknownFieldSet.cs	/^      IBuilderLite IBuilderLite.WeakMergeFrom(ByteString data) {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet.Builder	file:
+IBuilderLite.WeakMergeFrom	UnknownFieldSet.cs	/^      IBuilderLite IBuilderLite.WeakMergeFrom(ByteString data, ExtensionRegistry registry) {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet.Builder	file:
+IBuilderLite.WeakMergeFrom	UnknownFieldSet.cs	/^      IBuilderLite IBuilderLite.WeakMergeFrom(CodedInputStream input) {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet.Builder	file:
+IBuilderLite.WeakMergeFrom	UnknownFieldSet.cs	/^      IBuilderLite IBuilderLite.WeakMergeFrom(CodedInputStream input, ExtensionRegistry registry) {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet.Builder	file:
+IBuilderLite.WeakMergeFrom	UnknownFieldSet.cs	/^      IBuilderLite IBuilderLite.WeakMergeFrom(IMessageLite message) {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet.Builder	file:
+IEnumLite	EnumLite.cs	/^  public interface IEnumLite {$/;"	i	namespace:Google.ProtocolBuffers
+IEnumLite.Name	EnumLite.cs	/^      string IEnumLite.Name {$/;"	p	struct:Google.ProtocolBuffers.EnumLiteMap.EnumValue
+IEnumLite.Number	EnumLite.cs	/^      int IEnumLite.Number {$/;"	p	struct:Google.ProtocolBuffers.EnumLiteMap.EnumValue
+IEnumLiteMap	EnumLite.cs	/^  public interface IEnumLiteMap {$/;"	i	namespace:Google.ProtocolBuffers
+IEnumLiteMap	EnumLite.cs	/^  public interface IEnumLiteMap<T> : IEnumLiteMap$/;"	i	namespace:Google.ProtocolBuffers
+IEnumLiteMap.FindValueByNumber	EnumLite.cs	/^    IEnumLite IEnumLiteMap.FindValueByNumber(int number) {$/;"	m	class:Google.ProtocolBuffers.EnumLiteMap	file:
+IEnumerable.GetEnumerator	ByteString.cs	/^    IEnumerator IEnumerable.GetEnumerator() {$/;"	m	class:Google.ProtocolBuffers.ByteString	file:
+IEnumerable.GetEnumerator	MessageStreamIterator.cs	/^    IEnumerator IEnumerable.GetEnumerator() {$/;"	m	class:Google.ProtocolBuffers.MessageStreamIterator	file:
+IEnumerable.GetEnumerator	SortedList.cs	/^        IEnumerator IEnumerable.GetEnumerator()$/;"	m	class:Google.ProtocolBuffers.SortedList	file:
+IFieldDescriptorLite	FieldSet.cs	/^  public interface IFieldDescriptorLite : IComparable<IFieldDescriptorLite> {$/;"	i	namespace:Google.ProtocolBuffers
+IGeneratedExtensionLite	GeneratedExtensionLite.cs	/^  public interface IGeneratedExtensionLite {$/;"	i	namespace:Google.ProtocolBuffers
+IGeneratedExtensionLite.ContainingType	ExtensionInfo.cs	/^    object IGeneratedExtensionLite.ContainingType {$/;"	p	class:Google.ProtocolBuffers.ExtensionInfo
+IGeneratedExtensionLite.ContainingType	GeneratedExtensionLite.cs	/^    object IGeneratedExtensionLite.ContainingType {$/;"	p	class:Google.ProtocolBuffers.GeneratedExtensionLite
+IGeneratedExtensionLite.Descriptor	ExtensionInfo.cs	/^    IFieldDescriptorLite IGeneratedExtensionLite.Descriptor { get { return Descriptor; } }$/;"	p	class:Google.ProtocolBuffers.ExtensionInfo
+IGeneratedExtensionLite.MessageDefaultInstance	ExtensionInfo.cs	/^    IMessageLite IGeneratedExtensionLite.MessageDefaultInstance {$/;"	p	class:Google.ProtocolBuffers.ExtensionInfo
+IGeneratedExtensionLite.Number	ExtensionInfo.cs	/^    int IGeneratedExtensionLite.Number {$/;"	p	class:Google.ProtocolBuffers.ExtensionInfo
+IMessage	IMessage.cs	/^  public interface IMessage : IMessageLite {$/;"	i	namespace:Google.ProtocolBuffers
+IMessage	IMessage.cs	/^  public interface IMessage<TMessage, TBuilder> : IMessage<TMessage>, IMessageLite<TMessage, TBuilder>$/;"	i	namespace:Google.ProtocolBuffers
+IMessage	IMessage.cs	/^  public interface IMessage<TMessage> : IMessage, IMessageLite<TMessage> {$/;"	i	namespace:Google.ProtocolBuffers
+IMessage	MessageStreamIterator.cs	/^        where TMessage2 : TMessage, IMessage<TMessage2, TBuilder> {$/;"	p	class:Google.ProtocolBuffers.MessageStreamIterator
+IMessage	RpcUtil.cs	/^        where T : IMessage<T> {$/;"	p	class:Google.ProtocolBuffers.RpcUtil
+IMessage.WeakCreateBuilderForType	AbstractMessage.cs	/^    IBuilder IMessage.WeakCreateBuilderForType() {$/;"	m	class:Google.ProtocolBuffers.AbstractMessage	file:
+IMessage.WeakDefaultInstanceForType	AbstractMessage.cs	/^    IMessage IMessage.WeakDefaultInstanceForType {$/;"	p	class:Google.ProtocolBuffers.AbstractMessage
+IMessage.WeakToBuilder	AbstractMessage.cs	/^    IBuilder IMessage.WeakToBuilder() {$/;"	m	class:Google.ProtocolBuffers.AbstractMessage	file:
+IMessageLite	IMessageLite.cs	/^  public interface IMessageLite {$/;"	i	namespace:Google.ProtocolBuffers
+IMessageLite	IMessageLite.cs	/^  public interface IMessageLite<TMessage, TBuilder> : IMessageLite<TMessage>$/;"	i	namespace:Google.ProtocolBuffers
+IMessageLite	IMessageLite.cs	/^  public interface IMessageLite<TMessage> : IMessageLite {$/;"	i	namespace:Google.ProtocolBuffers
+IMessageLite.WeakCreateBuilderForType	AbstractMessageLite.cs	/^    IBuilderLite IMessageLite.WeakCreateBuilderForType() {$/;"	m	class:Google.ProtocolBuffers.AbstractMessageLite	file:
+IMessageLite.WeakDefaultInstanceForType	AbstractMessageLite.cs	/^    IMessageLite IMessageLite.WeakDefaultInstanceForType {$/;"	p	class:Google.ProtocolBuffers.AbstractMessageLite
+IMessageLite.WeakToBuilder	AbstractMessageLite.cs	/^    IBuilderLite IMessageLite.WeakToBuilder() {$/;"	m	class:Google.ProtocolBuffers.AbstractMessageLite	file:
+IRpcChannel	IRpcChannel.cs	/^  public interface IRpcChannel {$/;"	i	namespace:Google.ProtocolBuffers
+IRpcController	IRpcController.cs	/^  public interface IRpcController {$/;"	i	namespace:Google.ProtocolBuffers
+IService	IService.cs	/^  public interface IService {$/;"	i	namespace:Google.ProtocolBuffers
+Indent	TextGenerator.cs	/^    public void Indent() {$/;"	m	class:Google.ProtocolBuffers.TextGenerator
+Initialized	DynamicMessage.cs	/^    public bool Initialized {$/;"	p	class:Google.ProtocolBuffers.DynamicMessage
+InternalFieldAccessors	GeneratedBuilder.cs	/^    protected internal FieldAccessorTable<TMessage, TBuilder> InternalFieldAccessors {$/;"	p	class:Google.ProtocolBuffers.GeneratedBuilder
+InternalFieldAccessors	GeneratedMessage.cs	/^    protected abstract FieldAccessorTable<TMessage, TBuilder> InternalFieldAccessors { get; }$/;"	p	class:Google.ProtocolBuffers.GeneratedMessage
+InvalidEndTag	InvalidProtocolBufferException.cs	/^    internal static InvalidProtocolBufferException InvalidEndTag() {$/;"	m	class:Google.ProtocolBuffers.InvalidProtocolBufferException	file:
+InvalidMessageStreamTag	InvalidProtocolBufferException.cs	/^    internal static InvalidProtocolBufferException InvalidMessageStreamTag() {$/;"	m	class:Google.ProtocolBuffers.InvalidProtocolBufferException	file:
+InvalidProtocolBufferException	InvalidProtocolBufferException.cs	/^    internal InvalidProtocolBufferException(string message)$/;"	m	class:Google.ProtocolBuffers.InvalidProtocolBufferException	file:
+InvalidProtocolBufferException	InvalidProtocolBufferException.cs	/^  public sealed class InvalidProtocolBufferException : IOException {$/;"	c	namespace:Google.ProtocolBuffers
+InvalidTag	InvalidProtocolBufferException.cs	/^    internal static InvalidProtocolBufferException InvalidTag() {$/;"	m	class:Google.ProtocolBuffers.InvalidProtocolBufferException	file:
+InvalidWireType	InvalidProtocolBufferException.cs	/^    internal static InvalidProtocolBufferException InvalidWireType() {$/;"	m	class:Google.ProtocolBuffers.InvalidProtocolBufferException	file:
+IsAtEnd	CodedInputStream.cs	/^    public bool IsAtEnd {$/;"	p	class:Google.ProtocolBuffers.CodedInputStream
+IsEmpty	ByteString.cs	/^    public bool IsEmpty {$/;"	p	class:Google.ProtocolBuffers.ByteString
+IsEndGroupTag	WireFormat.cs	/^    public static bool IsEndGroupTag(uint tag) {$/;"	m	class:Google.ProtocolBuffers.WireFormat
+IsExtension	FieldSet.cs	/^    bool IsExtension { get; }$/;"	p	interface:Google.ProtocolBuffers.IFieldDescriptorLite
+IsExtension	GeneratedExtensionLite.cs	/^    public bool IsExtension {$/;"	p	class:Google.ProtocolBuffers.ExtensionDescriptorLite
+IsHex	TextFormat.cs	/^    private static bool IsHex(char c) {$/;"	m	class:Google.ProtocolBuffers.TextFormat	file:
+IsInitialized	AbstractBuilderLite.cs	/^    public abstract bool IsInitialized { get; }$/;"	p	class:Google.ProtocolBuffers.AbstractBuilderLite
+IsInitialized	AbstractMessage.cs	/^    public override bool IsInitialized {$/;"	p	class:Google.ProtocolBuffers.AbstractMessage
+IsInitialized	AbstractMessageLite.cs	/^    public abstract bool IsInitialized { get; }$/;"	p	class:Google.ProtocolBuffers.AbstractMessageLite
+IsInitialized	DynamicMessage.cs	/^      public override bool IsInitialized {$/;"	p	class:Google.ProtocolBuffers.DynamicMessage.Builder
+IsInitialized	ExtendableMessage.cs	/^    public override bool IsInitialized {$/;"	p	class:Google.ProtocolBuffers.ExtendableMessage
+IsInitialized	ExtendableMessageLite.cs	/^    public override bool IsInitialized {$/;"	p	class:Google.ProtocolBuffers.ExtendableMessageLite
+IsInitialized	FieldSet.cs	/^    internal bool IsInitialized {$/;"	p	class:Google.ProtocolBuffers.FieldSet
+IsInitialized	GeneratedBuilder.cs	/^    public override bool IsInitialized {$/;"	p	class:Google.ProtocolBuffers.GeneratedBuilder
+IsInitialized	GeneratedBuilderLite.cs	/^    public override bool IsInitialized {$/;"	p	class:Google.ProtocolBuffers.GeneratedBuilderLite
+IsInitialized	GeneratedMessage.cs	/^    public override bool IsInitialized {$/;"	p	class:Google.ProtocolBuffers.GeneratedMessage
+IsInitialized	IBuilder.cs	/^    new bool IsInitialized { get; }$/;"	p	interface:Google.ProtocolBuffers.IBuilder
+IsInitialized	IBuilderLite.cs	/^    bool IsInitialized { get; }$/;"	p	interface:Google.ProtocolBuffers.IBuilderLite
+IsInitialized	IMessage.cs	/^    new bool IsInitialized { get; }$/;"	p	interface:Google.ProtocolBuffers.IMessage
+IsInitialized	IMessageLite.cs	/^    bool IsInitialized { get; }$/;"	p	interface:Google.ProtocolBuffers.IMessageLite
+IsInitialized	UnknownFieldSet.cs	/^    public bool IsInitialized {$/;"	p	class:Google.ProtocolBuffers.UnknownFieldSet
+IsInitializedWithRespectTo	FieldSet.cs	/^    internal bool IsInitializedWithRespectTo(IEnumerable typeFields) {$/;"	m	class:Google.ProtocolBuffers.FieldSet	file:
+IsOctal	TextFormat.cs	/^    private static bool IsOctal(char c) {$/;"	m	class:Google.ProtocolBuffers.TextFormat	file:
+IsPacked	FieldSet.cs	/^    bool IsPacked { get; }$/;"	p	interface:Google.ProtocolBuffers.IFieldDescriptorLite
+IsPacked	GeneratedExtensionLite.cs	/^    public bool IsPacked {$/;"	p	class:Google.ProtocolBuffers.ExtensionDescriptorLite
+IsReadOnly	SortedList.cs	/^        public bool IsReadOnly$/;"	p	class:Google.ProtocolBuffers.SortedList
+IsRepeated	FieldSet.cs	/^    bool IsRepeated { get; }$/;"	p	interface:Google.ProtocolBuffers.IFieldDescriptorLite
+IsRepeated	GeneratedExtensionLite.cs	/^    public bool IsRepeated {$/;"	p	class:Google.ProtocolBuffers.ExtensionDescriptorLite
+IsRequired	FieldSet.cs	/^    bool IsRequired { get; }$/;"	p	interface:Google.ProtocolBuffers.IFieldDescriptorLite
+IsRequired	GeneratedExtensionLite.cs	/^    public bool IsRequired {$/;"	p	class:Google.ProtocolBuffers.ExtensionDescriptorLite
+IsValidValue	EnumLite.cs	/^    bool IsValidValue(IEnumLite value);$/;"	m	interface:Google.ProtocolBuffers.IEnumLiteMap
+IsValidValue	EnumLite.cs	/^    public bool IsValidValue(IEnumLite value) {$/;"	m	class:Google.ProtocolBuffers.EnumLiteMap
+Item	WireFormat.cs	/^      internal const int Item = 1;$/;"	f	class:Google.ProtocolBuffers.WireFormat.MessageSetField	file:
+ItemEnd	WireFormat.cs	/^      internal static readonly uint ItemEnd = MakeTag(MessageSetField.Item, WireType.EndGroup);$/;"	f	class:Google.ProtocolBuffers.WireFormat.MessageSetTag	file:
+ItemStart	WireFormat.cs	/^      internal static readonly uint ItemStart = MakeTag(MessageSetField.Item, WireType.StartGroup);$/;"	f	class:Google.ProtocolBuffers.WireFormat.MessageSetTag	file:
+Keys	SortedList.cs	/^        public ICollection<TKey> Keys$/;"	p	class:Google.ProtocolBuffers.SortedList
+Length	AbstractBuilderLite.cs	/^      public override long Length {$/;"	p	class:Google.ProtocolBuffers.AbstractBuilderLite.LimitedInputStream
+Length	ByteString.cs	/^    public int Length {$/;"	p	class:Google.ProtocolBuffers.ByteString
+LengthDelimited	WireFormat.cs	/^      LengthDelimited = 2,$/;"	e	enum:Google.ProtocolBuffers.WireFormat.WireType	file:
+LengthDelimitedList	UnknownField.cs	/^    public IList<ByteString> LengthDelimitedList {$/;"	p	class:Google.ProtocolBuffers.UnknownField
+LimitedInputStream	AbstractBuilderLite.cs	/^      internal LimitedInputStream(Stream proxied, int size) {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilderLite.LimitedInputStream	file:
+LimitedInputStream	AbstractBuilderLite.cs	/^    private class LimitedInputStream : Stream {$/;"	c	class:Google.ProtocolBuffers.AbstractBuilderLite
+LittleEndian32Size	CodedOutputStream.cs	/^    const int LittleEndian32Size = 4;$/;"	f	class:Google.ProtocolBuffers.CodedOutputStream	file:
+LittleEndian64Size	CodedOutputStream.cs	/^    const int LittleEndian64Size = 8;$/;"	f	class:Google.ProtocolBuffers.CodedOutputStream	file:
+LookingAtInteger	TextTokenizer.cs	/^    public bool LookingAtInteger() {$/;"	m	class:Google.ProtocolBuffers.TextTokenizer
+MakeImmutable	FieldSet.cs	/^    internal FieldSet MakeImmutable() {$/;"	m	class:Google.ProtocolBuffers.FieldSet	file:
+MakeReadOnly	UnknownField.cs	/^      private static ReadOnlyCollection<T> MakeReadOnly<T>(ref List<T> list) {$/;"	m	class:Google.ProtocolBuffers.UnknownField.Builder	file:
+MakeTag	WireFormat.cs	/^    public static uint MakeTag(FieldDescriptor field) {$/;"	m	class:Google.ProtocolBuffers.WireFormat
+MakeTag	WireFormat.cs	/^    public static uint MakeTag(int fieldNumber, WireType wireType) {$/;"	m	class:Google.ProtocolBuffers.WireFormat
+MalformedVarint	InvalidProtocolBufferException.cs	/^    public static InvalidProtocolBufferException MalformedVarint() {$/;"	m	class:Google.ProtocolBuffers.InvalidProtocolBufferException
+MappedType	FieldSet.cs	/^    MappedType MappedType { get; }$/;"	p	interface:Google.ProtocolBuffers.IFieldDescriptorLite
+MappedType	GeneratedExtensionLite.cs	/^    public MappedType MappedType {$/;"	p	class:Google.ProtocolBuffers.ExtensionDescriptorLite
+Merge	TextFormat.cs	/^    public static void Merge(TextReader reader, ExtensionRegistry registry, IBuilder builder) {$/;"	m	class:Google.ProtocolBuffers.TextFormat
+Merge	TextFormat.cs	/^    public static void Merge(TextReader reader, IBuilder builder) {$/;"	m	class:Google.ProtocolBuffers.TextFormat
+Merge	TextFormat.cs	/^    public static void Merge(string text, ExtensionRegistry registry, IBuilder builder) {$/;"	m	class:Google.ProtocolBuffers.TextFormat
+Merge	TextFormat.cs	/^    public static void Merge(string text, IBuilder builder) {$/;"	m	class:Google.ProtocolBuffers.TextFormat
+MergeDelimitedFrom	AbstractBuilderLite.cs	/^    public TBuilder MergeDelimitedFrom(Stream input) {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilderLite
+MergeDelimitedFrom	AbstractBuilderLite.cs	/^    public TBuilder MergeDelimitedFrom(Stream input, ExtensionRegistry extensionRegistry) {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilderLite
+MergeDelimitedFrom	IBuilder.cs	/^    new TBuilder MergeDelimitedFrom(Stream input);$/;"	m	interface:Google.ProtocolBuffers.IBuilder
+MergeDelimitedFrom	IBuilder.cs	/^    new TBuilder MergeDelimitedFrom(Stream input, ExtensionRegistry extensionRegistry);$/;"	m	interface:Google.ProtocolBuffers.IBuilder
+MergeDelimitedFrom	IBuilderLite.cs	/^    TBuilder MergeDelimitedFrom(Stream input);$/;"	m	interface:Google.ProtocolBuffers.IBuilderLite
+MergeDelimitedFrom	IBuilderLite.cs	/^    TBuilder MergeDelimitedFrom(Stream input, ExtensionRegistry extensionRegistry);$/;"	m	interface:Google.ProtocolBuffers.IBuilderLite
+MergeExtensionFields	ExtendableBuilder.cs	/^    protected void MergeExtensionFields(ExtendableMessage<TMessage, TBuilder> other) {$/;"	m	class:Google.ProtocolBuffers.ExtendableBuilder
+MergeExtensionFields	ExtendableBuilderLite.cs	/^    protected void MergeExtensionFields(ExtendableMessageLite<TMessage, TBuilder> other) {$/;"	m	class:Google.ProtocolBuffers.ExtendableBuilderLite
+MergeField	FieldSet.cs	/^    private void MergeField(IFieldDescriptorLite field, object mergeValue) {$/;"	m	class:Google.ProtocolBuffers.FieldSet	file:
+MergeField	TextFormat.cs	/^    private static void MergeField(TextTokenizer tokenizer, ExtensionRegistry extensionRegistry,$/;"	m	class:Google.ProtocolBuffers.TextFormat	file:
+MergeField	UnknownFieldSet.cs	/^      public Builder MergeField(int number, UnknownField field) {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet.Builder
+MergeFieldFrom	UnknownFieldSet.cs	/^      internal bool MergeFieldFrom(CodedInputStream input,$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet.Builder	file:
+MergeFieldFrom	UnknownFieldSet.cs	/^      public bool MergeFieldFrom(uint tag, CodedInputStream input) {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet.Builder
+MergeFrom	AbstractBuilder.cs	/^    public abstract TBuilder MergeFrom(TMessage other);$/;"	m	class:Google.ProtocolBuffers.AbstractBuilder
+MergeFrom	AbstractBuilder.cs	/^    public override TBuilder MergeFrom(CodedInputStream input, ExtensionRegistry extensionRegistry) {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilder
+MergeFrom	AbstractBuilder.cs	/^    public sealed override TBuilder MergeFrom(IMessageLite other) {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilder
+MergeFrom	AbstractBuilder.cs	/^    public virtual TBuilder MergeFrom(IMessage other) {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilder
+MergeFrom	AbstractBuilderLite.cs	/^    public TBuilder MergeFrom(ByteString data) {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilderLite
+MergeFrom	AbstractBuilderLite.cs	/^    public TBuilder MergeFrom(ByteString data, ExtensionRegistry extensionRegistry) {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilderLite
+MergeFrom	AbstractBuilderLite.cs	/^    public TBuilder MergeFrom(Stream input) {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilderLite
+MergeFrom	AbstractBuilderLite.cs	/^    public TBuilder MergeFrom(Stream input, ExtensionRegistry extensionRegistry) {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilderLite
+MergeFrom	AbstractBuilderLite.cs	/^    public TBuilder MergeFrom(byte[] data) {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilderLite
+MergeFrom	AbstractBuilderLite.cs	/^    public TBuilder MergeFrom(byte[] data, ExtensionRegistry extensionRegistry) {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilderLite
+MergeFrom	AbstractBuilderLite.cs	/^    public abstract TBuilder MergeFrom(CodedInputStream input, ExtensionRegistry extensionRegistry);$/;"	m	class:Google.ProtocolBuffers.AbstractBuilderLite
+MergeFrom	AbstractBuilderLite.cs	/^    public abstract TBuilder MergeFrom(IMessageLite other);$/;"	m	class:Google.ProtocolBuffers.AbstractBuilderLite
+MergeFrom	AbstractBuilderLite.cs	/^    public virtual TBuilder MergeFrom(CodedInputStream input) {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilderLite
+MergeFrom	DynamicMessage.cs	/^      public override Builder MergeFrom(CodedInputStream input, ExtensionRegistry extensionRegistry) {$/;"	m	class:Google.ProtocolBuffers.DynamicMessage.Builder
+MergeFrom	DynamicMessage.cs	/^      public override Builder MergeFrom(DynamicMessage other) {$/;"	m	class:Google.ProtocolBuffers.DynamicMessage.Builder
+MergeFrom	DynamicMessage.cs	/^      public override Builder MergeFrom(IMessage other) {$/;"	m	class:Google.ProtocolBuffers.DynamicMessage.Builder
+MergeFrom	FieldSet.cs	/^    public void MergeFrom(FieldSet other) {$/;"	m	class:Google.ProtocolBuffers.FieldSet
+MergeFrom	FieldSet.cs	/^    public void MergeFrom(IMessage other) {$/;"	m	class:Google.ProtocolBuffers.FieldSet
+MergeFrom	GeneratedBuilder.cs	/^    public override TBuilder MergeFrom(TMessage other) {$/;"	m	class:Google.ProtocolBuffers.GeneratedBuilder
+MergeFrom	GeneratedBuilderLite.cs	/^    public abstract TBuilder MergeFrom(TMessage other);$/;"	m	class:Google.ProtocolBuffers.GeneratedBuilderLite
+MergeFrom	GeneratedBuilderLite.cs	/^    public override TBuilder MergeFrom(IMessageLite other) {$/;"	m	class:Google.ProtocolBuffers.GeneratedBuilderLite
+MergeFrom	IBuilder.cs	/^    TBuilder MergeFrom(IMessage other);$/;"	m	interface:Google.ProtocolBuffers.IBuilder
+MergeFrom	IBuilder.cs	/^    new TBuilder MergeFrom(ByteString data);$/;"	m	interface:Google.ProtocolBuffers.IBuilder
+MergeFrom	IBuilder.cs	/^    new TBuilder MergeFrom(ByteString data, ExtensionRegistry extensionRegistry);$/;"	m	interface:Google.ProtocolBuffers.IBuilder
+MergeFrom	IBuilder.cs	/^    new TBuilder MergeFrom(CodedInputStream input);$/;"	m	interface:Google.ProtocolBuffers.IBuilder
+MergeFrom	IBuilder.cs	/^    new TBuilder MergeFrom(CodedInputStream input, ExtensionRegistry extensionRegistry);$/;"	m	interface:Google.ProtocolBuffers.IBuilder
+MergeFrom	IBuilder.cs	/^    new TBuilder MergeFrom(Stream input);$/;"	m	interface:Google.ProtocolBuffers.IBuilder
+MergeFrom	IBuilder.cs	/^    new TBuilder MergeFrom(Stream input, ExtensionRegistry extensionRegistry);$/;"	m	interface:Google.ProtocolBuffers.IBuilder
+MergeFrom	IBuilder.cs	/^    new TBuilder MergeFrom(byte[] data);$/;"	m	interface:Google.ProtocolBuffers.IBuilder
+MergeFrom	IBuilder.cs	/^    new TBuilder MergeFrom(byte[] data, ExtensionRegistry extensionRegistry);$/;"	m	interface:Google.ProtocolBuffers.IBuilder
+MergeFrom	IBuilderLite.cs	/^    TBuilder MergeFrom(ByteString data);$/;"	m	interface:Google.ProtocolBuffers.IBuilderLite
+MergeFrom	IBuilderLite.cs	/^    TBuilder MergeFrom(ByteString data, ExtensionRegistry extensionRegistry);$/;"	m	interface:Google.ProtocolBuffers.IBuilderLite
+MergeFrom	IBuilderLite.cs	/^    TBuilder MergeFrom(CodedInputStream input);$/;"	m	interface:Google.ProtocolBuffers.IBuilderLite
+MergeFrom	IBuilderLite.cs	/^    TBuilder MergeFrom(CodedInputStream input, ExtensionRegistry extensionRegistry);$/;"	m	interface:Google.ProtocolBuffers.IBuilderLite
+MergeFrom	IBuilderLite.cs	/^    TBuilder MergeFrom(IMessageLite other);$/;"	m	interface:Google.ProtocolBuffers.IBuilderLite
+MergeFrom	IBuilderLite.cs	/^    TBuilder MergeFrom(Stream input);$/;"	m	interface:Google.ProtocolBuffers.IBuilderLite
+MergeFrom	IBuilderLite.cs	/^    TBuilder MergeFrom(Stream input, ExtensionRegistry extensionRegistry);$/;"	m	interface:Google.ProtocolBuffers.IBuilderLite
+MergeFrom	IBuilderLite.cs	/^    TBuilder MergeFrom(byte[] data);$/;"	m	interface:Google.ProtocolBuffers.IBuilderLite
+MergeFrom	IBuilderLite.cs	/^    TBuilder MergeFrom(byte[] data, ExtensionRegistry extensionRegistry);$/;"	m	interface:Google.ProtocolBuffers.IBuilderLite
+MergeFrom	UnknownField.cs	/^      public Builder MergeFrom(UnknownField other) {$/;"	m	class:Google.ProtocolBuffers.UnknownField.Builder
+MergeFrom	UnknownFieldSet.cs	/^      internal void MergeFrom(CodedInputStream input, ExtensionRegistry extensionRegistry, IBuilder builder) {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet.Builder	file:
+MergeFrom	UnknownFieldSet.cs	/^      public Builder MergeFrom(ByteString data) {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet.Builder
+MergeFrom	UnknownFieldSet.cs	/^      public Builder MergeFrom(CodedInputStream input) {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet.Builder
+MergeFrom	UnknownFieldSet.cs	/^      public Builder MergeFrom(Stream input) {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet.Builder
+MergeFrom	UnknownFieldSet.cs	/^      public Builder MergeFrom(UnknownFieldSet other) {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet.Builder
+MergeFrom	UnknownFieldSet.cs	/^      public Builder MergeFrom(byte[] data) {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet.Builder
+MergeMessageSetExtensionFromCodedStream	UnknownFieldSet.cs	/^      private void MergeMessageSetExtensionFromCodedStream(CodedInputStream input,$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet.Builder	file:
+MergeUnknownFields	AbstractBuilder.cs	/^    public virtual TBuilder MergeUnknownFields(UnknownFieldSet unknownFields) {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilder
+MergeUnknownFields	GeneratedBuilder.cs	/^    public override TBuilder MergeUnknownFields(UnknownFieldSet unknownFields) {$/;"	m	class:Google.ProtocolBuffers.GeneratedBuilder
+MergeUnknownFields	IBuilder.cs	/^    TBuilder MergeUnknownFields(UnknownFieldSet unknownFields);$/;"	m	interface:Google.ProtocolBuffers.IBuilder
+MergeVarintField	UnknownFieldSet.cs	/^      public Builder MergeVarintField(int number, ulong value) {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet.Builder
+Message	WireFormat.cs	/^      internal const int Message = 3;$/;"	f	class:Google.ProtocolBuffers.WireFormat.MessageSetField	file:
+Message	WireFormat.cs	/^      internal static readonly uint Message = MakeTag(MessageSetField.Message, WireType.LengthDelimited);$/;"	f	class:Google.ProtocolBuffers.WireFormat.MessageSetTag	file:
+MessageBeingBuilt	GeneratedBuilder.cs	/^    protected abstract TMessage MessageBeingBuilt { get; }$/;"	p	class:Google.ProtocolBuffers.GeneratedBuilder
+MessageBeingBuilt	GeneratedBuilderLite.cs	/^    protected abstract TMessage MessageBeingBuilt { get; }$/;"	p	class:Google.ProtocolBuffers.GeneratedBuilderLite
+MessageDefaultInstance	GeneratedExtensionBase.cs	/^    public IMessageLite MessageDefaultInstance {$/;"	p	class:Google.ProtocolBuffers.GeneratedExtensionBase
+MessageDefaultInstance	GeneratedExtensionLite.cs	/^    IMessageLite MessageDefaultInstance { get; }$/;"	p	interface:Google.ProtocolBuffers.IGeneratedExtensionLite
+MessageDefaultInstance	GeneratedExtensionLite.cs	/^    public IMessageLite MessageDefaultInstance {$/;"	p	class:Google.ProtocolBuffers.GeneratedExtensionLite
+MessageSetField	WireFormat.cs	/^    internal static class MessageSetField {$/;"	c	class:Google.ProtocolBuffers.WireFormat
+MessageSetTag	WireFormat.cs	/^    internal static class MessageSetTag {$/;"	c	class:Google.ProtocolBuffers.WireFormat
+MessageSetWireFormat	FieldSet.cs	/^    bool MessageSetWireFormat { get; } \/\/field.ContainingType.Options.MessageSetWireFormat$/;"	p	interface:Google.ProtocolBuffers.IFieldDescriptorLite
+MessageSetWireFormat	GeneratedExtensionLite.cs	/^    public bool MessageSetWireFormat {$/;"	p	class:Google.ProtocolBuffers.ExtensionDescriptorLite
+MessageStreamIterator	MessageStreamIterator.cs	/^    private MessageStreamIterator(StreamProvider streamProvider, ExtensionRegistry extensionRegistry) $/;"	m	class:Google.ProtocolBuffers.MessageStreamIterator	file:
+MessageStreamIterator	MessageStreamIterator.cs	/^    private MessageStreamIterator(StreamProvider streamProvider, ExtensionRegistry extensionRegistry, int sizeLimit) {$/;"	m	class:Google.ProtocolBuffers.MessageStreamIterator	file:
+MessageStreamIterator	MessageStreamIterator.cs	/^  public class MessageStreamIterator<TMessage> : IEnumerable<TMessage>$/;"	c	namespace:Google.ProtocolBuffers
+MessageStreamWriter	MessageStreamWriter.cs	/^    public MessageStreamWriter(Stream output) {$/;"	m	class:Google.ProtocolBuffers.T
+MessageUtil	MessageUtil.cs	/^  public static class MessageUtil {$/;"	c	namespace:Google.ProtocolBuffers
+MissingFields	UninitializedMessageException.cs	/^    public IList<string> MissingFields {$/;"	p	class:Google.ProtocolBuffers.UninitializedMessageException
+Name	EnumLite.cs	/^    string Name { get; }$/;"	p	interface:Google.ProtocolBuffers.IEnumLite
+NameHelpers	NameHelpers.cs	/^  internal class NameHelpers {$/;"	c	namespace:Google.ProtocolBuffers
+NegativeSize	InvalidProtocolBufferException.cs	/^    internal static InvalidProtocolBufferException NegativeSize() {$/;"	m	class:Google.ProtocolBuffers.InvalidProtocolBufferException	file:
+NextToken	TextTokenizer.cs	/^    public void NextToken() {$/;"	m	class:Google.ProtocolBuffers.TextTokenizer
+NotifyOnCancel	IRpcController.cs	/^    void NotifyOnCancel(Action<object> callback);$/;"	m	interface:Google.ProtocolBuffers.IRpcController
+Number	EnumLite.cs	/^    int Number { get; }$/;"	p	interface:Google.ProtocolBuffers.IEnumLite
+Number	GeneratedExtensionBase.cs	/^    public int Number {$/;"	p	class:Google.ProtocolBuffers.GeneratedExtensionBase
+Number	GeneratedExtensionLite.cs	/^    int Number { get; }$/;"	p	interface:Google.ProtocolBuffers.IGeneratedExtensionLite
+Number	GeneratedExtensionLite.cs	/^    public int Number {$/;"	p	class:Google.ProtocolBuffers.GeneratedExtensionLite
+OutOfSpaceException	CodedOutputStream.cs	/^      internal OutOfSpaceException()$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream.OutOfSpaceException	file:
+OutOfSpaceException	CodedOutputStream.cs	/^    public sealed class OutOfSpaceException : IOException {$/;"	c	class:Google.ProtocolBuffers.CodedOutputStream
+Outdent	TextGenerator.cs	/^    public void Outdent() {$/;"	m	class:Google.ProtocolBuffers.TextGenerator
+ParseDigit	TextFormat.cs	/^    private static int ParseDigit(char c) {$/;"	m	class:Google.ProtocolBuffers.TextFormat	file:
+ParseDouble	TextFormat.cs	/^    internal static double ParseDouble(string text) {$/;"	m	class:Google.ProtocolBuffers.TextFormat	file:
+ParseFloat	TextFormat.cs	/^    internal static float ParseFloat(string text) {$/;"	m	class:Google.ProtocolBuffers.TextFormat	file:
+ParseFrom	DynamicMessage.cs	/^    public static DynamicMessage ParseFrom(MessageDescriptor type, ByteString data) {$/;"	m	class:Google.ProtocolBuffers.DynamicMessage
+ParseFrom	DynamicMessage.cs	/^    public static DynamicMessage ParseFrom(MessageDescriptor type, ByteString data, ExtensionRegistry extensionRegistry) {$/;"	m	class:Google.ProtocolBuffers.DynamicMessage
+ParseFrom	DynamicMessage.cs	/^    public static DynamicMessage ParseFrom(MessageDescriptor type, CodedInputStream input) {$/;"	m	class:Google.ProtocolBuffers.DynamicMessage
+ParseFrom	DynamicMessage.cs	/^    public static DynamicMessage ParseFrom(MessageDescriptor type, CodedInputStream input, ExtensionRegistry extensionRegistry) {$/;"	m	class:Google.ProtocolBuffers.DynamicMessage
+ParseFrom	DynamicMessage.cs	/^    public static DynamicMessage ParseFrom(MessageDescriptor type, Stream input) {$/;"	m	class:Google.ProtocolBuffers.DynamicMessage
+ParseFrom	DynamicMessage.cs	/^    public static DynamicMessage ParseFrom(MessageDescriptor type, Stream input, ExtensionRegistry extensionRegistry) {$/;"	m	class:Google.ProtocolBuffers.DynamicMessage
+ParseFrom	DynamicMessage.cs	/^    public static DynamicMessage ParseFrom(MessageDescriptor type, byte[] data) {$/;"	m	class:Google.ProtocolBuffers.DynamicMessage
+ParseFrom	DynamicMessage.cs	/^    public static DynamicMessage ParseFrom(MessageDescriptor type, byte[] data, ExtensionRegistry extensionRegistry) {$/;"	m	class:Google.ProtocolBuffers.DynamicMessage
+ParseFrom	UnknownFieldSet.cs	/^    public static UnknownFieldSet ParseFrom(ByteString data) {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet
+ParseFrom	UnknownFieldSet.cs	/^    public static UnknownFieldSet ParseFrom(CodedInputStream input) {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet
+ParseFrom	UnknownFieldSet.cs	/^    public static UnknownFieldSet ParseFrom(Stream input) {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet
+ParseFrom	UnknownFieldSet.cs	/^    public static UnknownFieldSet ParseFrom(byte[] data) {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet
+ParseInt32	TextFormat.cs	/^    internal static int ParseInt32(string text) {$/;"	m	class:Google.ProtocolBuffers.TextFormat	file:
+ParseInt64	TextFormat.cs	/^    internal static long ParseInt64(string text) {$/;"	m	class:Google.ProtocolBuffers.TextFormat	file:
+ParseInteger	TextFormat.cs	/^    private static long ParseInteger(string text, bool isSigned, bool isLong) {$/;"	m	class:Google.ProtocolBuffers.TextFormat	file:
+ParseUInt32	TextFormat.cs	/^    internal static uint ParseUInt32(string text) {$/;"	m	class:Google.ProtocolBuffers.TextFormat	file:
+ParseUInt64	TextFormat.cs	/^    internal static ulong ParseUInt64(string text) {$/;"	m	class:Google.ProtocolBuffers.TextFormat	file:
+ParseUnknownField	ExtendableBuilder.cs	/^    protected override bool ParseUnknownField(CodedInputStream input, UnknownFieldSet.Builder unknownFields,$/;"	m	class:Google.ProtocolBuffers.ExtendableBuilder
+ParseUnknownField	ExtendableBuilderLite.cs	/^    protected override bool ParseUnknownField(CodedInputStream input,$/;"	m	class:Google.ProtocolBuffers.ExtendableBuilderLite
+ParseUnknownField	GeneratedBuilder.cs	/^    protected virtual bool ParseUnknownField(CodedInputStream input, UnknownFieldSet.Builder unknownFields,$/;"	m	class:Google.ProtocolBuffers.GeneratedBuilder
+ParseUnknownField	GeneratedBuilderLite.cs	/^    protected virtual bool ParseUnknownField(CodedInputStream input, $/;"	m	class:Google.ProtocolBuffers.GeneratedBuilderLite
+PopLimit	CodedInputStream.cs	/^    public void PopLimit(int oldLimit) {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+Position	AbstractBuilderLite.cs	/^      public override long Position {$/;"	p	class:Google.ProtocolBuffers.AbstractBuilderLite.LimitedInputStream
+Print	TextFormat.cs	/^    private static void Print(IMessage message, TextGenerator generator) {$/;"	m	class:Google.ProtocolBuffers.TextFormat	file:
+Print	TextFormat.cs	/^    public static void Print(IMessage message, TextWriter output) {$/;"	m	class:Google.ProtocolBuffers.TextFormat
+Print	TextFormat.cs	/^    public static void Print(UnknownFieldSet fields, TextWriter output) {$/;"	m	class:Google.ProtocolBuffers.TextFormat
+Print	TextGenerator.cs	/^    public void Print(string text) {$/;"	m	class:Google.ProtocolBuffers.TextGenerator
+PrintField	GeneratedMessageLite.cs	/^    protected static void PrintField(string name, bool hasValue, object value, System.IO.TextWriter writer) {$/;"	m	class:Google.ProtocolBuffers.GeneratedMessageLite
+PrintField	GeneratedMessageLite.cs	/^    protected static void PrintField<T>(string name, IList<T> value, System.IO.TextWriter writer) {$/;"	m	class:Google.ProtocolBuffers.GeneratedMessageLite
+PrintField	TextFormat.cs	/^    internal static void PrintField(FieldDescriptor field, object value, TextGenerator generator) {$/;"	m	class:Google.ProtocolBuffers.TextFormat	file:
+PrintFieldValue	TextFormat.cs	/^    private static void PrintFieldValue(FieldDescriptor field, object value, TextGenerator generator) {$/;"	m	class:Google.ProtocolBuffers.TextFormat	file:
+PrintSingleField	TextFormat.cs	/^    private static void PrintSingleField(FieldDescriptor field, Object value, TextGenerator generator) {$/;"	m	class:Google.ProtocolBuffers.TextFormat	file:
+PrintTo	AbstractMessage.cs	/^    public sealed override void PrintTo(TextWriter writer) {$/;"	m	class:Google.ProtocolBuffers.AbstractMessage
+PrintTo	AbstractMessageLite.cs	/^    public abstract void PrintTo(TextWriter writer);$/;"	m	class:Google.ProtocolBuffers.AbstractMessageLite
+PrintTo	ExtendableMessageLite.cs	/^    public override void PrintTo(System.IO.TextWriter writer) {$/;"	m	class:Google.ProtocolBuffers.ExtendableMessageLite
+PrintTo	IMessageLite.cs	/^    void PrintTo(TextWriter writer);$/;"	m	interface:Google.ProtocolBuffers.IMessageLite
+PrintTo	UnknownFieldSet.cs	/^    public void PrintTo(TextWriter writer) {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet
+PrintToString	TextFormat.cs	/^    public static string PrintToString(IMessage message) {$/;"	m	class:Google.ProtocolBuffers.TextFormat
+PrintToString	TextFormat.cs	/^    public static string PrintToString(UnknownFieldSet fields) {$/;"	m	class:Google.ProtocolBuffers.TextFormat
+PrintUnknownFields	TextFormat.cs	/^    private static void PrintUnknownFields(UnknownFieldSet unknownFields, TextGenerator generator) {$/;"	m	class:Google.ProtocolBuffers.TextFormat	file:
+PushLimit	CodedInputStream.cs	/^    public int PushLimit(int byteLimit) {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+ReachedLimit	CodedInputStream.cs	/^    public bool ReachedLimit {$/;"	p	class:Google.ProtocolBuffers.CodedInputStream
+Read	AbstractBuilderLite.cs	/^      public override int Read(byte[] buffer, int offset, int count) {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilderLite.LimitedInputStream
+ReadBool	CodedInputStream.cs	/^    public bool ReadBool() {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+ReadBytes	CodedInputStream.cs	/^    public ByteString ReadBytes() {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+ReadDouble	CodedInputStream.cs	/^    public double ReadDouble() {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+ReadEnum	CodedInputStream.cs	/^    public int ReadEnum() {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+ReadFixed32	CodedInputStream.cs	/^    public uint ReadFixed32() {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+ReadFixed64	CodedInputStream.cs	/^    public ulong ReadFixed64() {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+ReadFloat	CodedInputStream.cs	/^    public float ReadFloat() {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+ReadGroup	CodedInputStream.cs	/^    public void ReadGroup(int fieldNumber, IBuilderLite builder,$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+ReadInt32	CodedInputStream.cs	/^    public int ReadInt32() {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+ReadInt64	CodedInputStream.cs	/^    public long ReadInt64() {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+ReadMessage	CodedInputStream.cs	/^    public void ReadMessage(IBuilderLite builder, ExtensionRegistry extensionRegistry) {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+ReadPrimitiveField	CodedInputStream.cs	/^    public object ReadPrimitiveField(FieldType fieldType) {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+ReadRawByte	CodedInputStream.cs	/^    public byte ReadRawByte() {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+ReadRawBytes	CodedInputStream.cs	/^    public byte[] ReadRawBytes(int size) {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+ReadRawLittleEndian32	CodedInputStream.cs	/^    public uint ReadRawLittleEndian32() {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+ReadRawLittleEndian64	CodedInputStream.cs	/^    public ulong ReadRawLittleEndian64() {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+ReadRawVarint32	CodedInputStream.cs	/^    internal static uint ReadRawVarint32(Stream input) {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream	file:
+ReadRawVarint32	CodedInputStream.cs	/^    public uint ReadRawVarint32() {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+ReadRawVarint64	CodedInputStream.cs	/^    public ulong ReadRawVarint64() {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+ReadSFixed32	CodedInputStream.cs	/^    public int ReadSFixed32() {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+ReadSFixed64	CodedInputStream.cs	/^    public long ReadSFixed64() {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+ReadSInt32	CodedInputStream.cs	/^    public int ReadSInt32() {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+ReadSInt64	CodedInputStream.cs	/^    public long ReadSInt64() {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+ReadString	CodedInputStream.cs	/^    public String ReadString() {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+ReadTag	CodedInputStream.cs	/^    public uint ReadTag() {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+ReadUInt32	CodedInputStream.cs	/^    public uint ReadUInt32() {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+ReadUInt64	CodedInputStream.cs	/^    public ulong ReadUInt64() {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+ReadUnknownGroup	CodedInputStream.cs	/^    public void ReadUnknownGroup(int fieldNumber, IBuilderLite builder)$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+RecomputeBufferSizeAfterLimit	CodedInputStream.cs	/^    private void RecomputeBufferSizeAfterLimit() {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream	file:
+RecursionLimitExceeded	InvalidProtocolBufferException.cs	/^    internal static InvalidProtocolBufferException RecursionLimitExceeded() {$/;"	m	class:Google.ProtocolBuffers.InvalidProtocolBufferException	file:
+RefillBuffer	CodedInputStream.cs	/^    private bool RefillBuffer(bool mustSucceed)  {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream	file:
+RefreshBuffer	CodedOutputStream.cs	/^    private void RefreshBuffer() {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream	file:
+Remove	SortedList.cs	/^        public bool Remove(KeyValuePair<TKey, TValue> item)$/;"	m	class:Google.ProtocolBuffers.SortedList
+Remove	SortedList.cs	/^        public bool Remove(TKey key)$/;"	m	class:Google.ProtocolBuffers.SortedList
+Reset	IRpcController.cs	/^    void Reset();$/;"	m	interface:Google.ProtocolBuffers.IRpcController
+ResetSizeCounter	CodedInputStream.cs	/^    public void ResetSizeCounter() {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+RpcUtil	RpcUtil.cs	/^  public static class RpcUtil {$/;"	c	namespace:Google.ProtocolBuffers
+SFixed32Size	WireFormat.cs	/^    internal const int SFixed32Size = 4;$/;"	f	class:Google.ProtocolBuffers.WireFormat	file:
+SFixed64Size	WireFormat.cs	/^    internal const int SFixed64Size = 8;$/;"	f	class:Google.ProtocolBuffers.WireFormat	file:
+Seek	AbstractBuilderLite.cs	/^      public override long Seek(long offset, SeekOrigin origin) {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilderLite.LimitedInputStream
+SerializedSize	AbstractMessage.cs	/^    public override int SerializedSize {$/;"	p	class:Google.ProtocolBuffers.AbstractMessage
+SerializedSize	AbstractMessageLite.cs	/^    public abstract int SerializedSize { get; }$/;"	p	class:Google.ProtocolBuffers.AbstractMessageLite
+SerializedSize	DynamicMessage.cs	/^    public override int SerializedSize {$/;"	p	class:Google.ProtocolBuffers.DynamicMessage
+SerializedSize	FieldSet.cs	/^    public int SerializedSize {$/;"	p	class:Google.ProtocolBuffers.FieldSet
+SerializedSize	IMessage.cs	/^    new int SerializedSize { get; }$/;"	p	interface:Google.ProtocolBuffers.IMessage
+SerializedSize	IMessageLite.cs	/^    int SerializedSize { get; }$/;"	p	interface:Google.ProtocolBuffers.IMessageLite
+SerializedSize	UnknownFieldSet.cs	/^    public int SerializedSize { $/;"	p	class:Google.ProtocolBuffers.UnknownFieldSet
+SerializedSizeAsMessageSet	UnknownFieldSet.cs	/^    public int SerializedSizeAsMessageSet {$/;"	p	class:Google.ProtocolBuffers.UnknownFieldSet
+SetExtension	ExtendableBuilder.cs	/^    public TBuilder SetExtension<TExtension>(GeneratedExtensionBase<IList<TExtension>> extension, int index, TExtension value) {$/;"	m	class:Google.ProtocolBuffers.ExtendableBuilder
+SetExtension	ExtendableBuilder.cs	/^    public TBuilder SetExtension<TExtension>(GeneratedExtensionBase<TExtension> extension, TExtension value) {$/;"	m	class:Google.ProtocolBuffers.ExtendableBuilder
+SetExtension	ExtendableBuilderLite.cs	/^    public TBuilder SetExtension<TExtension>(GeneratedExtensionLite<TMessage, IList<TExtension>> extension, int index, TExtension value) {$/;"	m	class:Google.ProtocolBuffers.ExtendableBuilderLite
+SetExtension	ExtendableBuilderLite.cs	/^    public TBuilder SetExtension<TExtension>(GeneratedExtensionLite<TMessage, TExtension> extension, TExtension value) {$/;"	m	class:Google.ProtocolBuffers.ExtendableBuilderLite
+SetFailed	IRpcController.cs	/^    void SetFailed(string reason);$/;"	m	interface:Google.ProtocolBuffers.IRpcController
+SetField	AbstractBuilder.cs	/^    public virtual IBuilder SetField(FieldDescriptor field, object value) {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilder
+SetField	IBuilder.cs	/^    IBuilder SetField(FieldDescriptor field, object value);$/;"	m	interface:Google.ProtocolBuffers.IBuilder
+SetLength	AbstractBuilderLite.cs	/^      public override void SetLength(long value) {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilderLite.LimitedInputStream
+SetRecursionLimit	CodedInputStream.cs	/^    public int SetRecursionLimit(int limit) {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+SetRepeatedField	AbstractBuilder.cs	/^    public virtual IBuilder SetRepeatedField(FieldDescriptor field, int index, object value) {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilder
+SetRepeatedField	IBuilder.cs	/^    IBuilder SetRepeatedField(FieldDescriptor field, int index, object value);$/;"	m	interface:Google.ProtocolBuffers.IBuilder
+SetSizeLimit	CodedInputStream.cs	/^    public int SetSizeLimit(int limit) {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+SetUnknownFields	AbstractBuilder.cs	/^    public TBuilder SetUnknownFields(UnknownFieldSet fields) {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilder
+SetUnknownFields	GeneratedMessage.cs	/^    internal void SetUnknownFields(UnknownFieldSet fieldSet) {$/;"	m	class:Google.ProtocolBuffers.GeneratedMessage	file:
+SetUnknownFields	IBuilder.cs	/^    TBuilder SetUnknownFields(UnknownFieldSet unknownFields);$/;"	m	interface:Google.ProtocolBuffers.IBuilder
+SilverlightCompatibility	SilverlightCompatibility.cs	/^    internal static class SilverlightCompatibility$/;"	c	namespace:Google.ProtocolBuffers
+SingularFromReflectionType	GeneratedExtensionBase.cs	/^    public object SingularFromReflectionType(object value) {$/;"	m	class:Google.ProtocolBuffers.GeneratedExtensionBase
+SingularFromReflectionType	GeneratedExtensionLite.cs	/^    public object SingularFromReflectionType(object value) {$/;"	m	class:Google.ProtocolBuffers.GeneratedExtensionLite
+SingularToReflectionType	GeneratedExtensionBase.cs	/^    internal Object SingularToReflectionType(object value) {$/;"	m	class:Google.ProtocolBuffers.GeneratedExtensionBase	file:
+SingularToReflectionType	GeneratedExtensionLite.cs	/^    public object SingularToReflectionType(object value) {$/;"	m	class:Google.ProtocolBuffers.GeneratedExtensionLite
+SizeLimitExceeded	InvalidProtocolBufferException.cs	/^    internal static InvalidProtocolBufferException SizeLimitExceeded() {$/;"	m	class:Google.ProtocolBuffers.InvalidProtocolBufferException	file:
+SkipField	CodedInputStream.cs	/^    public bool SkipField(uint tag) {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+SkipImpl	CodedInputStream.cs	/^    private void SkipImpl(int amountToSkip) {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream	file:
+SkipMessage	CodedInputStream.cs	/^    public void SkipMessage() {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+SkipRawBytes	CodedInputStream.cs	/^    public void SkipRawBytes(int size) {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream
+SkipWhitespace	TextTokenizer.cs	/^    private void SkipWhitespace() {$/;"	m	class:Google.ProtocolBuffers.TextTokenizer	file:
+SlowReadRawVarint32	CodedInputStream.cs	/^    private uint SlowReadRawVarint32() {$/;"	m	class:Google.ProtocolBuffers.CodedInputStream	file:
+SlowWriteRawVarint32	CodedOutputStream.cs	/^    private void SlowWriteRawVarint32(uint value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream	file:
+SortedList	SortedList.cs	/^        public SortedList()$/;"	m	class:Google.ProtocolBuffers.SortedList
+SortedList	SortedList.cs	/^        public SortedList(IDictionary<TKey, TValue> dictionary)$/;"	m	class:Google.ProtocolBuffers.SortedList
+SortedList	SortedList.cs	/^    internal sealed class SortedList<TKey, TValue> : IDictionary<TKey, TValue>$/;"	c	namespace:Google.ProtocolBuffers
+SpaceLeft	CodedOutputStream.cs	/^    public int SpaceLeft {$/;"	p	class:Google.ProtocolBuffers.CodedOutputStream
+StartCancel	IRpcController.cs	/^    void StartCancel();$/;"	m	interface:Google.ProtocolBuffers.IRpcController
+StartGroup	WireFormat.cs	/^      StartGroup = 3,$/;"	e	enum:Google.ProtocolBuffers.WireFormat.WireType	file:
+StreamProvider	Delegates.cs	/^  public delegate Stream StreamProvider();$/;"	m	namespace:Google.ProtocolBuffers
+StripProto	NameHelpers.cs	/^    internal static string StripProto(string text) {$/;"	m	class:Google.ProtocolBuffers.NameHelpers	file:
+StripSuffix	NameHelpers.cs	/^    internal static bool StripSuffix(ref string text, string suffix) {$/;"	m	class:Google.ProtocolBuffers.NameHelpers	file:
+SubMessagePrefix	UninitializedMessageException.cs	/^    private static String SubMessagePrefix(String prefix, FieldDescriptor field, int index) {$/;"	m	class:Google.ProtocolBuffers.UninitializedMessageException	file:
+T	MessageStreamWriter.cs	/^  public sealed class MessageStreamWriter<T> where T : IMessage<T> {$/;"	c	namespace:Google.ProtocolBuffers
+TBuilder	RpcUtil.cs	/^        where TBuilder : IBuilder<TMessage, TBuilder> {$/;"	c	class:Google.ProtocolBuffers.RpcUtil
+TMessage	MessageStreamIterator.cs	/^        where TMessage2 : TMessage, IMessage<TMessage2, TBuilder> {$/;"	f	class:Google.ProtocolBuffers.MessageStreamIterator	file:
+TagTypeBits	WireFormat.cs	/^    private const int TagTypeBits = 3;$/;"	f	class:Google.ProtocolBuffers.WireFormat	file:
+TagTypeMask	WireFormat.cs	/^    private const uint TagTypeMask = (1 << TagTypeBits) - 1;$/;"	f	class:Google.ProtocolBuffers.WireFormat	file:
+TextFormat	TextFormat.cs	/^  public static class TextFormat {$/;"	c	namespace:Google.ProtocolBuffers
+TextGenerator	TextGenerator.cs	/^    public TextGenerator(TextWriter writer, string lineBreak) {$/;"	m	class:Google.ProtocolBuffers.TextGenerator
+TextGenerator	TextGenerator.cs	/^  public sealed class TextGenerator {$/;"	c	namespace:Google.ProtocolBuffers
+TextTokenizer	TextTokenizer.cs	/^    public TextTokenizer(string text) {$/;"	m	class:Google.ProtocolBuffers.TextTokenizer
+TextTokenizer	TextTokenizer.cs	/^  internal sealed class TextTokenizer {$/;"	c	namespace:Google.ProtocolBuffers
+ThisBuilder	AbstractBuilderLite.cs	/^    protected abstract TBuilder ThisBuilder { get; }$/;"	p	class:Google.ProtocolBuffers.AbstractBuilderLite
+ThisBuilder	DynamicMessage.cs	/^      protected override Builder ThisBuilder {$/;"	p	class:Google.ProtocolBuffers.DynamicMessage.Builder
+ThisMessage	GeneratedMessage.cs	/^    protected abstract TMessage ThisMessage { get; }$/;"	p	class:Google.ProtocolBuffers.GeneratedMessage
+ThisMessage	GeneratedMessageLite.cs	/^    protected abstract TMessage ThisMessage { get; }$/;"	p	class:Google.ProtocolBuffers.GeneratedMessageLite
+ThrowHelper	ThrowHelper.cs	/^  public static class ThrowHelper {$/;"	c	namespace:Google.ProtocolBuffers
+ThrowIfAnyNull	ThrowHelper.cs	/^    public static void ThrowIfAnyNull<T>(IEnumerable<T> sequence) {$/;"	m	class:Google.ProtocolBuffers.ThrowHelper
+ThrowIfNull	ThrowHelper.cs	/^    public static void ThrowIfNull(object value) {$/;"	m	class:Google.ProtocolBuffers.ThrowHelper
+ThrowIfNull	ThrowHelper.cs	/^    public static void ThrowIfNull(object value, string name) {$/;"	m	class:Google.ProtocolBuffers.ThrowHelper
+ToBuilder	AbstractMessageLite.cs	/^    public abstract TBuilder ToBuilder();$/;"	m	class:Google.ProtocolBuffers.AbstractMessageLite
+ToBuilder	DynamicMessage.cs	/^    public override Builder ToBuilder() {$/;"	m	class:Google.ProtocolBuffers.DynamicMessage
+ToBuilder	IMessage.cs	/^    new TBuilder ToBuilder();$/;"	m	interface:Google.ProtocolBuffers.IMessage
+ToBuilder	IMessageLite.cs	/^    TBuilder ToBuilder();$/;"	m	interface:Google.ProtocolBuffers.IMessageLite
+ToByteArray	AbstractMessageLite.cs	/^    public byte[] ToByteArray() {$/;"	m	class:Google.ProtocolBuffers.AbstractMessageLite
+ToByteArray	ByteString.cs	/^    public byte[] ToByteArray() {$/;"	m	class:Google.ProtocolBuffers.ByteString
+ToByteArray	IMessage.cs	/^    new byte[] ToByteArray();$/;"	m	interface:Google.ProtocolBuffers.IMessage
+ToByteArray	IMessageLite.cs	/^    byte[] ToByteArray();$/;"	m	interface:Google.ProtocolBuffers.IMessageLite
+ToByteArray	UnknownFieldSet.cs	/^    public byte[] ToByteArray() {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet
+ToByteString	AbstractMessageLite.cs	/^    public ByteString ToByteString() {$/;"	m	class:Google.ProtocolBuffers.AbstractMessageLite
+ToByteString	IMessage.cs	/^    new ByteString ToByteString();$/;"	m	interface:Google.ProtocolBuffers.IMessage
+ToByteString	IMessageLite.cs	/^    ByteString ToByteString();$/;"	m	interface:Google.ProtocolBuffers.IMessageLite
+ToByteString	UnknownFieldSet.cs	/^    public ByteString ToByteString() {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet
+ToReflectionType	GeneratedExtensionBase.cs	/^    public object ToReflectionType(object value) {$/;"	m	class:Google.ProtocolBuffers.GeneratedExtensionBase
+ToReflectionType	GeneratedExtensionLite.cs	/^    public override object ToReflectionType(object value) {$/;"	m	class:Google.ProtocolBuffers.GeneratedRepeatExtensionLite
+ToReflectionType	GeneratedExtensionLite.cs	/^    public virtual object ToReflectionType(object value) {$/;"	m	class:Google.ProtocolBuffers.GeneratedExtensionLite
+ToString	AbstractMessage.cs	/^    public sealed override string ToString() {$/;"	m	class:Google.ProtocolBuffers.AbstractMessage
+ToString	ByteString.cs	/^    public string ToString(Encoding encoding) {$/;"	m	class:Google.ProtocolBuffers.ByteString
+ToString	GeneratedMessageLite.cs	/^    public sealed override string ToString() {$/;"	m	class:Google.ProtocolBuffers.GeneratedMessageLite
+ToString	IMessage.cs	/^    new string ToString();$/;"	m	interface:Google.ProtocolBuffers.IMessage
+ToString	IMessageLite.cs	/^    string ToString();$/;"	m	interface:Google.ProtocolBuffers.IMessageLite
+ToString	UnknownFieldSet.cs	/^    public override String ToString() {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet
+ToStringUtf8	ByteString.cs	/^    public string ToStringUtf8() {$/;"	m	class:Google.ProtocolBuffers.ByteString
+TokenPattern	TextTokenizer.cs	/^    private static readonly Regex TokenPattern = new Regex($/;"	f	class:Google.ProtocolBuffers.TextTokenizer	file:
+TruncatedMessage	InvalidProtocolBufferException.cs	/^    internal static InvalidProtocolBufferException TruncatedMessage() {$/;"	m	class:Google.ProtocolBuffers.InvalidProtocolBufferException	file:
+TryConsume	TextTokenizer.cs	/^    public bool TryConsume(string token) {$/;"	m	class:Google.ProtocolBuffers.TextTokenizer
+TryGetValue	SortedList.cs	/^        public bool TryGetValue(TKey key, out TValue value)$/;"	m	class:Google.ProtocolBuffers.SortedList
+TypeID	WireFormat.cs	/^      internal const int TypeID = 2;$/;"	f	class:Google.ProtocolBuffers.WireFormat.MessageSetField	file:
+TypeID	WireFormat.cs	/^      internal static readonly uint TypeID = MakeTag(MessageSetField.TypeID, WireType.Varint);$/;"	f	class:Google.ProtocolBuffers.WireFormat.MessageSetTag	file:
+UnderscoresToCamelCase	NameHelpers.cs	/^    internal static string UnderscoresToCamelCase(string input) {$/;"	m	class:Google.ProtocolBuffers.NameHelpers	file:
+UnderscoresToPascalCase	NameHelpers.cs	/^    internal static string UnderscoresToPascalCase(string input) {$/;"	m	class:Google.ProtocolBuffers.NameHelpers	file:
+UnderscoresToPascalOrCamelCase	NameHelpers.cs	/^    private static string UnderscoresToPascalOrCamelCase(string input, bool pascal) {$/;"	m	class:Google.ProtocolBuffers.NameHelpers	file:
+UnescapeBytes	TextFormat.cs	/^    internal static ByteString UnescapeBytes(string input) {$/;"	m	class:Google.ProtocolBuffers.TextFormat	file:
+UnescapeText	TextFormat.cs	/^    internal static string UnescapeText(string input) {$/;"	m	class:Google.ProtocolBuffers.TextFormat	file:
+UninitializedMessageException	UninitializedMessageException.cs	/^    private UninitializedMessageException(IList<string> missingFields)$/;"	m	class:Google.ProtocolBuffers.UninitializedMessageException	file:
+UninitializedMessageException	UninitializedMessageException.cs	/^    public UninitializedMessageException(IMessage message)$/;"	m	class:Google.ProtocolBuffers.UninitializedMessageException
+UninitializedMessageException	UninitializedMessageException.cs	/^    public UninitializedMessageException(IMessageLite message)$/;"	m	class:Google.ProtocolBuffers.UninitializedMessageException
+UninitializedMessageException	UninitializedMessageException.cs	/^  public sealed class UninitializedMessageException : Exception {$/;"	c	namespace:Google.ProtocolBuffers
+UnknownField	UnknownField.cs	/^    private UnknownField(ReadOnlyCollection<ulong> varintList,$/;"	m	class:Google.ProtocolBuffers.UnknownField	file:
+UnknownField	UnknownField.cs	/^  public sealed class UnknownField {$/;"	c	namespace:Google.ProtocolBuffers
+UnknownFieldSet	UnknownFieldSet.cs	/^    private UnknownFieldSet(IDictionary<int, UnknownField> fields) {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet	file:
+UnknownFieldSet	UnknownFieldSet.cs	/^  public sealed class UnknownFieldSet : IMessageLite {$/;"	c	namespace:Google.ProtocolBuffers
+UnknownFields	AbstractBuilder.cs	/^    public abstract UnknownFieldSet UnknownFields { get; set; }$/;"	p	class:Google.ProtocolBuffers.AbstractBuilder
+UnknownFields	AbstractMessage.cs	/^    public abstract UnknownFieldSet UnknownFields { get; }$/;"	p	class:Google.ProtocolBuffers.AbstractMessage
+UnknownFields	DynamicMessage.cs	/^      public override UnknownFieldSet UnknownFields {$/;"	p	class:Google.ProtocolBuffers.DynamicMessage.Builder
+UnknownFields	DynamicMessage.cs	/^    public override UnknownFieldSet UnknownFields {$/;"	p	class:Google.ProtocolBuffers.DynamicMessage
+UnknownFields	GeneratedBuilder.cs	/^    public override UnknownFieldSet UnknownFields {$/;"	p	class:Google.ProtocolBuffers.GeneratedBuilder
+UnknownFields	GeneratedMessage.cs	/^    public override UnknownFieldSet UnknownFields {$/;"	p	class:Google.ProtocolBuffers.GeneratedMessage
+UnknownFields	IBuilder.cs	/^    UnknownFieldSet UnknownFields { get; set; }$/;"	p	interface:Google.ProtocolBuffers.IBuilder
+UnknownFields	IMessage.cs	/^    UnknownFieldSet UnknownFields { get; }$/;"	p	interface:Google.ProtocolBuffers.IMessage
+Values	SortedList.cs	/^        public ICollection<TValue> Values$/;"	p	class:Google.ProtocolBuffers.SortedList
+Varint	WireFormat.cs	/^      Varint = 0,$/;"	e	enum:Google.ProtocolBuffers.WireFormat.WireType	file:
+VarintList	UnknownField.cs	/^    public IList<ulong> VarintList {$/;"	p	class:Google.ProtocolBuffers.UnknownField
+VerifyContainingType	DynamicMessage.cs	/^      private void VerifyContainingType(FieldDescriptor field) {$/;"	m	class:Google.ProtocolBuffers.DynamicMessage.Builder	file:
+VerifyContainingType	DynamicMessage.cs	/^    private void VerifyContainingType(FieldDescriptor field) {$/;"	m	class:Google.ProtocolBuffers.DynamicMessage	file:
+VerifyContainingType	ExtendableMessage.cs	/^    internal void VerifyContainingType(FieldDescriptor field) {$/;"	m	class:Google.ProtocolBuffers.ExtendableMessage	file:
+VerifyExtensionContainingType	ExtendableMessage.cs	/^    internal void VerifyExtensionContainingType<TExtension>(GeneratedExtensionBase<TExtension> extension) {$/;"	m	class:Google.ProtocolBuffers.ExtendableMessage	file:
+VerifyExtensionContainingType	ExtendableMessageLite.cs	/^    internal void VerifyExtensionContainingType<TExtension>(GeneratedExtensionLite<TMessage, TExtension> extension) {$/;"	m	class:Google.ProtocolBuffers.ExtendableMessageLite	file:
+VerifyType	FieldSet.cs	/^    private static void VerifyType(IFieldDescriptorLite field, object value) {$/;"	m	class:Google.ProtocolBuffers.FieldSet	file:
+WeakAddRepeatedField	IBuilder.cs	/^    IBuilder WeakAddRepeatedField(FieldDescriptor field, object value);$/;"	m	interface:Google.ProtocolBuffers.IBuilder
+WeakBuild	IBuilder.cs	/^    new IMessage WeakBuild();$/;"	m	interface:Google.ProtocolBuffers.IBuilder
+WeakBuild	IBuilderLite.cs	/^    IMessageLite WeakBuild();$/;"	m	interface:Google.ProtocolBuffers.IBuilderLite
+WeakBuildPartial	IBuilder.cs	/^    new IMessage WeakBuildPartial();$/;"	m	interface:Google.ProtocolBuffers.IBuilder
+WeakBuildPartial	IBuilderLite.cs	/^    IMessageLite WeakBuildPartial();$/;"	m	interface:Google.ProtocolBuffers.IBuilderLite
+WeakClear	IBuilder.cs	/^    new IBuilder WeakClear();$/;"	m	interface:Google.ProtocolBuffers.IBuilder
+WeakClear	IBuilderLite.cs	/^    IBuilderLite WeakClear();$/;"	m	interface:Google.ProtocolBuffers.IBuilderLite
+WeakClearField	IBuilder.cs	/^    IBuilder WeakClearField(FieldDescriptor field);$/;"	m	interface:Google.ProtocolBuffers.IBuilder
+WeakClone	IBuilder.cs	/^    new IBuilder WeakClone();$/;"	m	interface:Google.ProtocolBuffers.IBuilder
+WeakClone	IBuilderLite.cs	/^    IBuilderLite WeakClone();$/;"	m	interface:Google.ProtocolBuffers.IBuilderLite
+WeakCreateBuilderForType	IMessage.cs	/^    new IBuilder WeakCreateBuilderForType();$/;"	m	interface:Google.ProtocolBuffers.IMessage
+WeakCreateBuilderForType	IMessageLite.cs	/^    IBuilderLite WeakCreateBuilderForType();$/;"	m	interface:Google.ProtocolBuffers.IMessageLite
+WeakCreateBuilderForType	UnknownFieldSet.cs	/^    public IBuilderLite WeakCreateBuilderForType() {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet
+WeakDefaultInstanceForType	IBuilder.cs	/^    new IMessage WeakDefaultInstanceForType { get; }$/;"	p	interface:Google.ProtocolBuffers.IBuilder
+WeakDefaultInstanceForType	IBuilderLite.cs	/^    IMessageLite WeakDefaultInstanceForType { get; }$/;"	p	interface:Google.ProtocolBuffers.IBuilderLite
+WeakDefaultInstanceForType	IMessage.cs	/^    new IMessage WeakDefaultInstanceForType { get; }$/;"	p	interface:Google.ProtocolBuffers.IMessage
+WeakDefaultInstanceForType	IMessageLite.cs	/^    IMessageLite WeakDefaultInstanceForType { get; }$/;"	p	interface:Google.ProtocolBuffers.IMessageLite
+WeakDefaultInstanceForType	UnknownFieldSet.cs	/^    public IMessageLite WeakDefaultInstanceForType {$/;"	p	class:Google.ProtocolBuffers.UnknownFieldSet
+WeakMergeFrom	IBuilder.cs	/^    IBuilder WeakMergeFrom(IMessage message);$/;"	m	interface:Google.ProtocolBuffers.IBuilder
+WeakMergeFrom	IBuilder.cs	/^    new IBuilder WeakMergeFrom(ByteString data);$/;"	m	interface:Google.ProtocolBuffers.IBuilder
+WeakMergeFrom	IBuilder.cs	/^    new IBuilder WeakMergeFrom(ByteString data, ExtensionRegistry registry);$/;"	m	interface:Google.ProtocolBuffers.IBuilder
+WeakMergeFrom	IBuilder.cs	/^    new IBuilder WeakMergeFrom(CodedInputStream input);$/;"	m	interface:Google.ProtocolBuffers.IBuilder
+WeakMergeFrom	IBuilder.cs	/^    new IBuilder WeakMergeFrom(CodedInputStream input, ExtensionRegistry registry);$/;"	m	interface:Google.ProtocolBuffers.IBuilder
+WeakMergeFrom	IBuilderLite.cs	/^    IBuilderLite WeakMergeFrom(ByteString data);$/;"	m	interface:Google.ProtocolBuffers.IBuilderLite
+WeakMergeFrom	IBuilderLite.cs	/^    IBuilderLite WeakMergeFrom(ByteString data, ExtensionRegistry registry);$/;"	m	interface:Google.ProtocolBuffers.IBuilderLite
+WeakMergeFrom	IBuilderLite.cs	/^    IBuilderLite WeakMergeFrom(CodedInputStream input);$/;"	m	interface:Google.ProtocolBuffers.IBuilderLite
+WeakMergeFrom	IBuilderLite.cs	/^    IBuilderLite WeakMergeFrom(CodedInputStream input, ExtensionRegistry registry);$/;"	m	interface:Google.ProtocolBuffers.IBuilderLite
+WeakMergeFrom	IBuilderLite.cs	/^    IBuilderLite WeakMergeFrom(IMessageLite message);$/;"	m	interface:Google.ProtocolBuffers.IBuilderLite
+WeakToBuilder	IMessage.cs	/^    new IBuilder WeakToBuilder();$/;"	m	interface:Google.ProtocolBuffers.IMessage
+WeakToBuilder	IMessageLite.cs	/^    IBuilderLite WeakToBuilder();$/;"	m	interface:Google.ProtocolBuffers.IMessageLite
+WeakToBuilder	UnknownFieldSet.cs	/^    public IBuilderLite WeakToBuilder() {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet
+WhitespaceAndCommentPattern	TextTokenizer.cs	/^    internal static readonly Regex WhitespaceAndCommentPattern = new Regex("\\\\G(?>(\\\\s|(#.*$))+)",$/;"	f	class:Google.ProtocolBuffers.TextTokenizer	file:
+WireFormat	WireFormat.cs	/^  public static class WireFormat {$/;"	c	namespace:Google.ProtocolBuffers
+WireType	WireFormat.cs	/^    public enum WireType : uint {$/;"	g	class:Google.ProtocolBuffers.WireFormat
+WithExtensionRegistry	MessageStreamIterator.cs	/^    public MessageStreamIterator<TMessage> WithExtensionRegistry(ExtensionRegistry newRegistry) {$/;"	m	class:Google.ProtocolBuffers.MessageStreamIterator
+WithSizeLimit	MessageStreamIterator.cs	/^    public MessageStreamIterator<TMessage> WithSizeLimit(int newSizeLimit) {$/;"	m	class:Google.ProtocolBuffers.MessageStreamIterator
+Write	AbstractBuilderLite.cs	/^      public override void Write(byte[] buffer, int offset, int count) {$/;"	m	class:Google.ProtocolBuffers.AbstractBuilderLite.LimitedInputStream
+Write	MessageStreamWriter.cs	/^    public void Write(T message) {$/;"	m	class:Google.ProtocolBuffers.T
+Write	TextGenerator.cs	/^    private void Write(string data) {$/;"	m	class:Google.ProtocolBuffers.TextGenerator	file:
+Write	TextGenerator.cs	/^    public void Write(string format, params object[] args) {$/;"	m	class:Google.ProtocolBuffers.TextGenerator
+WriteAsMessageSetExtensionTo	UnknownField.cs	/^    public void WriteAsMessageSetExtensionTo(int fieldNumber, CodedOutputStream output) {$/;"	m	class:Google.ProtocolBuffers.UnknownField
+WriteAsMessageSetTo	UnknownFieldSet.cs	/^    public void WriteAsMessageSetTo(CodedOutputStream output) {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet
+WriteBool	CodedOutputStream.cs	/^    public void WriteBool(int fieldNumber, bool value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteBoolNoTag	CodedOutputStream.cs	/^    public void WriteBoolNoTag(bool value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteBytes	CodedOutputStream.cs	/^    public void WriteBytes(int fieldNumber, ByteString value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteBytesNoTag	CodedOutputStream.cs	/^    public void WriteBytesNoTag(ByteString value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteDelimitedTo	AbstractMessageLite.cs	/^    public void WriteDelimitedTo(Stream output) {$/;"	m	class:Google.ProtocolBuffers.AbstractMessageLite
+WriteDelimitedTo	IMessage.cs	/^    new void WriteDelimitedTo(Stream output);$/;"	m	interface:Google.ProtocolBuffers.IMessage
+WriteDelimitedTo	IMessageLite.cs	/^    void WriteDelimitedTo(Stream output);$/;"	m	interface:Google.ProtocolBuffers.IMessageLite
+WriteDelimitedTo	UnknownFieldSet.cs	/^    public void WriteDelimitedTo(Stream output) {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet
+WriteDouble	CodedOutputStream.cs	/^    public void WriteDouble(int fieldNumber, double value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteDoubleNoTag	CodedOutputStream.cs	/^    public void WriteDoubleNoTag(double value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteEnum	CodedOutputStream.cs	/^    public void WriteEnum(int fieldNumber, int value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteEnumNoTag	CodedOutputStream.cs	/^    public void WriteEnumNoTag(int value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteField	CodedOutputStream.cs	/^    public void WriteField(FieldType fieldType, int fieldNumber, object value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteField	FieldSet.cs	/^    public void WriteField(IFieldDescriptorLite field, Object value, CodedOutputStream output) {$/;"	m	class:Google.ProtocolBuffers.FieldSet
+WriteFieldNoTag	CodedOutputStream.cs	/^    public void WriteFieldNoTag(FieldType fieldType, object value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteFixed32	CodedOutputStream.cs	/^    public void WriteFixed32(int fieldNumber, uint value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteFixed32NoTag	CodedOutputStream.cs	/^    public void WriteFixed32NoTag(uint value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteFixed64	CodedOutputStream.cs	/^    public void WriteFixed64(int fieldNumber, ulong value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteFixed64NoTag	CodedOutputStream.cs	/^    public void WriteFixed64NoTag(ulong value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteFloat	CodedOutputStream.cs	/^    public void WriteFloat(int fieldNumber, float value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteFloatNoTag	CodedOutputStream.cs	/^    public void WriteFloatNoTag(float value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteGroup	CodedOutputStream.cs	/^    public void WriteGroup(int fieldNumber, IMessageLite value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteGroupNoTag	CodedOutputStream.cs	/^    public void WriteGroupNoTag(IMessageLite value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteInt32	CodedOutputStream.cs	/^    public void WriteInt32(int fieldNumber, int value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteInt32NoTag	CodedOutputStream.cs	/^    public void WriteInt32NoTag(int value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteInt64	CodedOutputStream.cs	/^    public void WriteInt64(int fieldNumber, long value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteInt64NoTag	CodedOutputStream.cs	/^    public void WriteInt64NoTag(long value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteLine	TextGenerator.cs	/^    public void WriteLine() {$/;"	m	class:Google.ProtocolBuffers.TextGenerator
+WriteLine	TextGenerator.cs	/^    public void WriteLine(string format, params object[] args) {$/;"	m	class:Google.ProtocolBuffers.TextGenerator
+WriteLine	TextGenerator.cs	/^    public void WriteLine(string text) {$/;"	m	class:Google.ProtocolBuffers.TextGenerator
+WriteMessage	CodedOutputStream.cs	/^    public void WriteMessage(int fieldNumber, IMessageLite value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteMessageNoTag	CodedOutputStream.cs	/^    public void WriteMessageNoTag(IMessageLite value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteMessageSetExtension	CodedOutputStream.cs	/^    public void WriteMessageSetExtension(int fieldNumber, IMessageLite value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteRawByte	CodedOutputStream.cs	/^    public void WriteRawByte(byte value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteRawByte	CodedOutputStream.cs	/^    public void WriteRawByte(uint value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteRawBytes	CodedOutputStream.cs	/^    public void WriteRawBytes(byte[] value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteRawBytes	CodedOutputStream.cs	/^    public void WriteRawBytes(byte[] value, int offset, int length) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteRawLittleEndian32	CodedOutputStream.cs	/^    public void WriteRawLittleEndian32(uint value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteRawLittleEndian64	CodedOutputStream.cs	/^    public void WriteRawLittleEndian64(ulong value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteRawMessageSetExtension	CodedOutputStream.cs	/^    public void WriteRawMessageSetExtension(int fieldNumber, ByteString value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteRawVarint32	CodedOutputStream.cs	/^    public void WriteRawVarint32(uint value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteRawVarint64	CodedOutputStream.cs	/^    public void WriteRawVarint64(ulong value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteSFixed32	CodedOutputStream.cs	/^    public void WriteSFixed32(int fieldNumber, int value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteSFixed32NoTag	CodedOutputStream.cs	/^    public void WriteSFixed32NoTag(int value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteSFixed64	CodedOutputStream.cs	/^    public void WriteSFixed64(int fieldNumber, long value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteSFixed64NoTag	CodedOutputStream.cs	/^    public void WriteSFixed64NoTag(long value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteSInt32	CodedOutputStream.cs	/^    public void WriteSInt32(int fieldNumber, int value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteSInt32NoTag	CodedOutputStream.cs	/^    public void WriteSInt32NoTag(int value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteSInt64	CodedOutputStream.cs	/^    public void WriteSInt64(int fieldNumber, long value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteSInt64NoTag	CodedOutputStream.cs	/^    public void WriteSInt64NoTag(long value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteString	CodedOutputStream.cs	/^    public void WriteString(int fieldNumber, string value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteStringNoTag	CodedOutputStream.cs	/^    public void WriteStringNoTag(string value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteTag	CodedOutputStream.cs	/^    public void WriteTag(int fieldNumber, WireFormat.WireType type) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteTo	AbstractMessage.cs	/^    public override void WriteTo(CodedOutputStream output) {$/;"	m	class:Google.ProtocolBuffers.AbstractMessage
+WriteTo	AbstractMessageLite.cs	/^    public abstract void WriteTo(CodedOutputStream output);$/;"	m	class:Google.ProtocolBuffers.AbstractMessageLite
+WriteTo	AbstractMessageLite.cs	/^    public void WriteTo(Stream output) {$/;"	m	class:Google.ProtocolBuffers.AbstractMessageLite
+WriteTo	DynamicMessage.cs	/^    public override void WriteTo(CodedOutputStream output) {$/;"	m	class:Google.ProtocolBuffers.DynamicMessage
+WriteTo	FieldSet.cs	/^    public void WriteTo(CodedOutputStream output) {$/;"	m	class:Google.ProtocolBuffers.FieldSet
+WriteTo	IMessage.cs	/^    new void WriteTo(CodedOutputStream output);$/;"	m	interface:Google.ProtocolBuffers.IMessage
+WriteTo	IMessage.cs	/^    new void WriteTo(Stream output);$/;"	m	interface:Google.ProtocolBuffers.IMessage
+WriteTo	IMessageLite.cs	/^    void WriteTo(CodedOutputStream output);$/;"	m	interface:Google.ProtocolBuffers.IMessageLite
+WriteTo	IMessageLite.cs	/^    void WriteTo(Stream output);$/;"	m	interface:Google.ProtocolBuffers.IMessageLite
+WriteTo	UnknownField.cs	/^    public void WriteTo(int fieldNumber, CodedOutputStream output) {$/;"	m	class:Google.ProtocolBuffers.UnknownField
+WriteTo	UnknownFieldSet.cs	/^    public void WriteTo(CodedOutputStream output) {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet
+WriteTo	UnknownFieldSet.cs	/^    public void WriteTo(Stream output) {$/;"	m	class:Google.ProtocolBuffers.UnknownFieldSet
+WriteUInt32	CodedOutputStream.cs	/^    public void WriteUInt32(int fieldNumber, uint value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteUInt32NoTag	CodedOutputStream.cs	/^    public void WriteUInt32NoTag(uint value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteUInt64	CodedOutputStream.cs	/^    public void WriteUInt64(int fieldNumber, ulong value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteUInt64NoTag	CodedOutputStream.cs	/^    public void WriteUInt64NoTag(ulong value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteUnknownGroup	CodedOutputStream.cs	/^    public void WriteUnknownGroup(int fieldNumber, IMessageLite value) {$/;"	m	class:Google.ProtocolBuffers.CodedOutputStream
+WriteUntil	ExtendableMessage.cs	/^      public void WriteUntil(int end, CodedOutputStream output) {$/;"	m	class:Google.ProtocolBuffers.ExtendableMessage.ExtensionWriter
+WriteUntil	ExtendableMessageLite.cs	/^      public void WriteUntil(int end, CodedOutputStream output) {$/;"	m	class:Google.ProtocolBuffers.ExtendableMessageLite.ExtensionWriter
+_DefaultInstance	ExtensionInfo.cs	/^		IMessageLite _DefaultInstance;$/;"	f	class:Google.ProtocolBuffers.ExtensionInfo	file:
+_Descriptor	ExtensionInfo.cs	/^		FieldDescriptor _Descriptor;$/;"	f	class:Google.ProtocolBuffers.ExtensionInfo	file:
+action	RpcUtil.cs	/^        action(castMessage);$/;"	m	class:Google.ProtocolBuffers.RpcUtil.TBuilder	file:
+atStartOfLine	TextGenerator.cs	/^    bool atStartOfLine = true;$/;"	f	class:Google.ProtocolBuffers.TextGenerator	file:
+buffer	ByteString.cs	/^      private readonly byte[] buffer;$/;"	f	class:Google.ProtocolBuffers.ByteString.CodedBuilder	file:
+buffer	CodedInputStream.cs	/^    private readonly byte[] buffer;$/;"	f	class:Google.ProtocolBuffers.CodedInputStream	file:
+buffer	CodedOutputStream.cs	/^    private readonly byte[] buffer;$/;"	f	class:Google.ProtocolBuffers.CodedOutputStream	file:
+bufferPos	CodedInputStream.cs	/^    private int bufferPos = 0;$/;"	f	class:Google.ProtocolBuffers.CodedInputStream	file:
+bufferSize	CodedInputStream.cs	/^    private int bufferSize;$/;"	f	class:Google.ProtocolBuffers.CodedInputStream	file:
+bufferSizeAfterLimit	CodedInputStream.cs	/^    private int bufferSizeAfterLimit = 0;$/;"	f	class:Google.ProtocolBuffers.CodedInputStream	file:
+bytes	ByteString.cs	/^    private readonly byte[] bytes;$/;"	f	class:Google.ProtocolBuffers.ByteString	file:
+bytesLeft	AbstractBuilderLite.cs	/^      private int bytesLeft;$/;"	f	class:Google.ProtocolBuffers.AbstractBuilderLite.LimitedInputStream	file:
+codedOutput	MessageStreamWriter.cs	/^    private readonly CodedOutputStream codedOutput;$/;"	f	class:Google.ProtocolBuffers.T	file:
+column	TextTokenizer.cs	/^    private int column = 0;$/;"	f	class:Google.ProtocolBuffers.TextTokenizer	file:
+containingTypeDefaultInstance	GeneratedExtensionLite.cs	/^    private readonly TContainingType containingTypeDefaultInstance;$/;"	f	class:Google.ProtocolBuffers.GeneratedExtensionLite	file:
+currentLimit	CodedInputStream.cs	/^    private int currentLimit = int.MaxValue;$/;"	f	class:Google.ProtocolBuffers.CodedInputStream	file:
+currentToken	TextTokenizer.cs	/^    private string currentToken;$/;"	f	class:Google.ProtocolBuffers.TextTokenizer	file:
+defaultInstance	FieldSet.cs	/^    private static readonly FieldSet defaultInstance = new FieldSet(new Dictionary<IFieldDescriptorLite, object>()).MakeImmutable();$/;"	f	class:Google.ProtocolBuffers.FieldSet	file:
+defaultInstance	UnknownField.cs	/^    private static readonly UnknownField defaultInstance = CreateBuilder().Build();$/;"	f	class:Google.ProtocolBuffers.UnknownField	file:
+defaultInstance	UnknownFieldSet.cs	/^    private static readonly UnknownFieldSet defaultInstance = new UnknownFieldSet(new Dictionary<int, UnknownField>());$/;"	f	class:Google.ProtocolBuffers.UnknownFieldSet	file:
+defaultValue	GeneratedExtensionLite.cs	/^    private readonly TExtensionType defaultValue;$/;"	f	class:Google.ProtocolBuffers.GeneratedExtensionLite	file:
+defaultValue	GeneratedExtensionLite.cs	/^    private readonly object defaultValue;$/;"	f	class:Google.ProtocolBuffers.ExtensionDescriptorLite	file:
+descriptor	GeneratedExtensionBase.cs	/^    private readonly FieldDescriptor descriptor;$/;"	f	class:Google.ProtocolBuffers.GeneratedExtensionBase	file:
+descriptor	GeneratedExtensionLite.cs	/^    private readonly ExtensionDescriptorLite descriptor;$/;"	f	class:Google.ProtocolBuffers.GeneratedExtensionLite	file:
+empty	ByteString.cs	/^    private static readonly ByteString empty = new ByteString(new byte[0]);$/;"	f	class:Google.ProtocolBuffers.ByteString	file:
+empty	ExtensionRegistry.cs	/^    private static readonly ExtensionRegistry empty = new ExtensionRegistry($/;"	f	class:Google.ProtocolBuffers.ExtensionRegistry	file:
+empty	ExtensionRegistryLite.cs	/^		private static readonly ExtensionRegistry empty = new ExtensionRegistry();$/;"	f	class:Google.ProtocolBuffers.ExtensionRegistry	file:
+enumTypeMap	GeneratedExtensionLite.cs	/^    private readonly IEnumLiteMap enumTypeMap;$/;"	f	class:Google.ProtocolBuffers.ExtensionDescriptorLite	file:
+extensionRegistry	MessageStreamIterator.cs	/^    private readonly ExtensionRegistry extensionRegistry;$/;"	f	class:Google.ProtocolBuffers.MessageStreamIterator	file:
+extensions	ExtendableMessage.cs	/^      readonly FieldSet extensions;$/;"	f	class:Google.ProtocolBuffers.ExtendableMessage.ExtensionWriter	file:
+extensions	ExtendableMessage.cs	/^    private readonly FieldSet extensions = FieldSet.CreateInstance();$/;"	f	class:Google.ProtocolBuffers.ExtendableMessage	file:
+extensions	ExtendableMessageLite.cs	/^      readonly FieldSet extensions;$/;"	f	class:Google.ProtocolBuffers.ExtendableMessageLite.ExtensionWriter	file:
+extensions	ExtendableMessageLite.cs	/^    private readonly FieldSet extensions = FieldSet.CreateInstance();$/;"	f	class:Google.ProtocolBuffers.ExtendableMessageLite	file:
+extensionsByName	ExtensionRegistry.cs	/^    private readonly IDictionary<string, ExtensionInfo> extensionsByName;$/;"	f	class:Google.ProtocolBuffers.ExtensionRegistry	file:
+fields	DynamicMessage.cs	/^      private FieldSet fields;$/;"	f	class:Google.ProtocolBuffers.DynamicMessage.Builder	file:
+fields	DynamicMessage.cs	/^    private readonly FieldSet fields;$/;"	f	class:Google.ProtocolBuffers.DynamicMessage	file:
+fields	FieldSet.cs	/^    private IDictionary<IFieldDescriptorLite, object> fields;$/;"	f	class:Google.ProtocolBuffers.FieldSet	file:
+fields	UnknownFieldSet.cs	/^      private IDictionary<int, UnknownField> fields;$/;"	f	class:Google.ProtocolBuffers.UnknownFieldSet.Builder	file:
+fields	UnknownFieldSet.cs	/^    private readonly IDictionary<int, UnknownField> fields;$/;"	f	class:Google.ProtocolBuffers.UnknownFieldSet	file:
+fixed32List	UnknownField.cs	/^      private List<uint> fixed32List;$/;"	f	class:Google.ProtocolBuffers.UnknownField.Builder	file:
+fixed32List	UnknownField.cs	/^    private readonly ReadOnlyCollection<uint> fixed32List;$/;"	f	class:Google.ProtocolBuffers.UnknownField	file:
+fixed64List	UnknownField.cs	/^      private List<ulong> fixed64List;$/;"	f	class:Google.ProtocolBuffers.UnknownField.Builder	file:
+fixed64List	UnknownField.cs	/^    private readonly ReadOnlyCollection<ulong> fixed64List;$/;"	f	class:Google.ProtocolBuffers.UnknownField	file:
+fullName	GeneratedExtensionLite.cs	/^    private readonly string fullName;$/;"	f	class:Google.ProtocolBuffers.ExtensionDescriptorLite	file:
+groupList	UnknownField.cs	/^      private List<UnknownFieldSet> groupList;$/;"	f	class:Google.ProtocolBuffers.UnknownField.Builder	file:
+groupList	UnknownField.cs	/^    private readonly ReadOnlyCollection<UnknownFieldSet> groupList;$/;"	f	class:Google.ProtocolBuffers.UnknownField	file:
+indent	TextGenerator.cs	/^    readonly StringBuilder indent = new StringBuilder();$/;"	f	class:Google.ProtocolBuffers.TextGenerator	file:
+input	CodedInputStream.cs	/^    private readonly Stream input;$/;"	f	class:Google.ProtocolBuffers.CodedInputStream	file:
+isCanceled	IRpcController.cs	/^    bool isCanceled();$/;"	m	interface:Google.ProtocolBuffers.IRpcController
+isPacked	GeneratedExtensionLite.cs	/^    private readonly bool isPacked;$/;"	f	class:Google.ProtocolBuffers.ExtensionDescriptorLite	file:
+isRepeated	GeneratedExtensionLite.cs	/^    private readonly bool isRepeated;$/;"	f	class:Google.ProtocolBuffers.ExtensionDescriptorLite	file:
+items	EnumLite.cs	/^    private readonly SortedList<int, IEnumLite> items;$/;"	f	class:Google.ProtocolBuffers.EnumLiteMap	file:
+iterator	ExtendableMessage.cs	/^      readonly IEnumerator<KeyValuePair<IFieldDescriptorLite, object>> iterator;$/;"	f	class:Google.ProtocolBuffers.ExtendableMessage.ExtensionWriter	file:
+iterator	ExtendableMessageLite.cs	/^      readonly IEnumerator<KeyValuePair<IFieldDescriptorLite, object>> iterator;$/;"	f	class:Google.ProtocolBuffers.ExtendableMessageLite.ExtensionWriter	file:
+lastField	UnknownFieldSet.cs	/^      private UnknownField.Builder lastField;$/;"	f	class:Google.ProtocolBuffers.UnknownFieldSet.Builder	file:
+lastFieldNumber	UnknownFieldSet.cs	/^      private int lastFieldNumber;$/;"	f	class:Google.ProtocolBuffers.UnknownFieldSet.Builder	file:
+lastTag	CodedInputStream.cs	/^    private uint lastTag = 0;$/;"	f	class:Google.ProtocolBuffers.CodedInputStream	file:
+lengthDelimitedList	UnknownField.cs	/^      private List<ByteString> lengthDelimitedList;$/;"	f	class:Google.ProtocolBuffers.UnknownField.Builder	file:
+lengthDelimitedList	UnknownField.cs	/^    private readonly ReadOnlyCollection<ByteString> lengthDelimitedList;$/;"	f	class:Google.ProtocolBuffers.UnknownField	file:
+limit	CodedOutputStream.cs	/^    private readonly int limit;$/;"	f	class:Google.ProtocolBuffers.CodedOutputStream	file:
+line	TextTokenizer.cs	/^    private int line = 0;$/;"	f	class:Google.ProtocolBuffers.TextTokenizer	file:
+lineBreak	TextGenerator.cs	/^    private readonly string lineBreak;$/;"	f	class:Google.ProtocolBuffers.TextGenerator	file:
+mapType	GeneratedExtensionLite.cs	/^    private readonly MappedType mapType;$/;"	f	class:Google.ProtocolBuffers.ExtensionDescriptorLite	file:
+matchPos	TextTokenizer.cs	/^    private int matchPos = 0;$/;"	f	class:Google.ProtocolBuffers.TextTokenizer	file:
+memoizedSize	AbstractMessage.cs	/^    private int? memoizedSize = null;$/;"	f	class:Google.ProtocolBuffers.AbstractMessage	file:
+memoizedSize	DynamicMessage.cs	/^    private int memoizedSize = -1;$/;"	f	class:Google.ProtocolBuffers.DynamicMessage	file:
+messageDefaultInstance	GeneratedExtensionBase.cs	/^    private readonly IMessageLite messageDefaultInstance;$/;"	f	class:Google.ProtocolBuffers.GeneratedExtensionBase	file:
+messageDefaultInstance	GeneratedExtensionLite.cs	/^    private readonly IMessageLite messageDefaultInstance;$/;"	f	class:Google.ProtocolBuffers.GeneratedExtensionLite	file:
+messageReader	MessageStreamIterator.cs	/^    private static readonly Func<CodedInputStream, ExtensionRegistry, TMessage> messageReader = BuildMessageReader();$/;"	f	class:Google.ProtocolBuffers.MessageStreamIterator	file:
+missingFields	UninitializedMessageException.cs	/^    private readonly IList<string> missingFields;$/;"	f	class:Google.ProtocolBuffers.UninitializedMessageException	file:
+next	ExtendableMessage.cs	/^      KeyValuePair<IFieldDescriptorLite, object>? next = null;$/;"	f	class:Google.ProtocolBuffers.ExtendableMessage.ExtensionWriter	file:
+next	ExtendableMessageLite.cs	/^      KeyValuePair<IFieldDescriptorLite, object>? next = null;$/;"	f	class:Google.ProtocolBuffers.ExtendableMessageLite.ExtensionWriter	file:
+number	GeneratedExtensionLite.cs	/^    private readonly int number;$/;"	f	class:Google.ProtocolBuffers.ExtensionDescriptorLite	file:
+output	ByteString.cs	/^      private readonly CodedOutputStream output;$/;"	f	class:Google.ProtocolBuffers.ByteString.CodedBuilder	file:
+output	CodedOutputStream.cs	/^    private readonly Stream output;$/;"	f	class:Google.ProtocolBuffers.CodedOutputStream	file:
+pos	TextTokenizer.cs	/^    private int pos = 0;$/;"	f	class:Google.ProtocolBuffers.TextTokenizer	file:
+position	CodedOutputStream.cs	/^    private int position;$/;"	f	class:Google.ProtocolBuffers.CodedOutputStream	file:
+previousColumn	TextTokenizer.cs	/^    private int previousColumn = 0;$/;"	f	class:Google.ProtocolBuffers.TextTokenizer	file:
+previousLine	TextTokenizer.cs	/^    private int previousLine = 0;$/;"	f	class:Google.ProtocolBuffers.TextTokenizer	file:
+proxied	AbstractBuilderLite.cs	/^      private readonly Stream proxied;$/;"	f	class:Google.ProtocolBuffers.AbstractBuilderLite.LimitedInputStream	file:
+recursionDepth	CodedInputStream.cs	/^    private int recursionDepth = 0;$/;"	f	class:Google.ProtocolBuffers.CodedInputStream	file:
+recursionLimit	CodedInputStream.cs	/^    private int recursionLimit = DefaultRecursionLimit;$/;"	f	class:Google.ProtocolBuffers.CodedInputStream	file:
+sizeLimit	CodedInputStream.cs	/^    private int sizeLimit = DefaultSizeLimit;$/;"	f	class:Google.ProtocolBuffers.CodedInputStream	file:
+sizeLimit	MessageStreamIterator.cs	/^    private readonly int sizeLimit;$/;"	f	class:Google.ProtocolBuffers.MessageStreamIterator	file:
+streamProvider	MessageStreamIterator.cs	/^    private readonly StreamProvider streamProvider;$/;"	f	class:Google.ProtocolBuffers.MessageStreamIterator	file:
+text	TextTokenizer.cs	/^    private readonly string text;$/;"	f	class:Google.ProtocolBuffers.TextTokenizer	file:
+totalBytesRetired	CodedInputStream.cs	/^    private int totalBytesRetired = 0;$/;"	f	class:Google.ProtocolBuffers.CodedInputStream	file:
+type	DynamicMessage.cs	/^      private readonly MessageDescriptor type;$/;"	f	class:Google.ProtocolBuffers.DynamicMessage.Builder	file:
+type	DynamicMessage.cs	/^    private readonly MessageDescriptor type;$/;"	f	class:Google.ProtocolBuffers.DynamicMessage	file:
+type	GeneratedExtensionLite.cs	/^    private readonly FieldType type;$/;"	f	class:Google.ProtocolBuffers.ExtensionDescriptorLite	file:
+typeInitializationException	MessageStreamIterator.cs	/^    private static Exception typeInitializationException;$/;"	f	class:Google.ProtocolBuffers.MessageStreamIterator	file:
+unknownFields	DynamicMessage.cs	/^      private UnknownFieldSet unknownFields;$/;"	f	class:Google.ProtocolBuffers.DynamicMessage.Builder	file:
+unknownFields	DynamicMessage.cs	/^    private readonly UnknownFieldSet unknownFields;$/;"	f	class:Google.ProtocolBuffers.DynamicMessage	file:
+unknownFields	GeneratedMessage.cs	/^    private UnknownFieldSet unknownFields = UnknownFieldSet.DefaultInstance;$/;"	f	class:Google.ProtocolBuffers.GeneratedMessage	file:
+value	EnumLite.cs	/^      readonly TEnum value;$/;"	f	struct:Google.ProtocolBuffers.EnumLiteMap.EnumValue
+varintList	UnknownField.cs	/^      private List<ulong> varintList;$/;"	f	class:Google.ProtocolBuffers.UnknownField.Builder	file:
+varintList	UnknownField.cs	/^    private readonly ReadOnlyCollection<ulong> varintList;$/;"	f	class:Google.ProtocolBuffers.UnknownField	file:
+wrapped	SortedList.cs	/^        private readonly IDictionary<TKey, TValue> wrapped = new Dictionary<TKey, TValue>();$/;"	f	class:Google.ProtocolBuffers.SortedList	file:
+writer	TextGenerator.cs	/^    private readonly TextWriter writer;$/;"	f	class:Google.ProtocolBuffers.TextGenerator	file:

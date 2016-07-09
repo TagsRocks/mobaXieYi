@@ -1,0 +1,8 @@
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\AddressBook\bin\Debug\AddressBook.exe.config
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\AddressBook\bin\Debug\AddressBook.exe
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\AddressBook\bin\Debug\AddressBook.pdb
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\AddressBook\bin\Debug\Google.ProtocolBuffers.dll
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\AddressBook\bin\Debug\Google.ProtocolBuffers.pdb
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\AddressBook\obj\Debug\AddressBook.exe
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\AddressBook\obj\Debug\AddressBook.pdb
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\AddressBook\obj\Debug\AddressBook.csprojResolveAssemblyReference.cache

@@ -1,0 +1,5 @@
+D:\neiwang3\zc\protobuffer\src\ProtocolBuffers\bin\Debug_Silverlight2\Google.ProtocolBuffersLite.dll
+D:\neiwang3\zc\protobuffer\src\ProtocolBuffers\bin\Debug_Silverlight2\Google.ProtocolBuffersLite.pdb
+D:\neiwang3\zc\protobuffer\src\ProtocolBuffers\obj\Debug_Silverlight2\ProtocolBuffersLite.csprojResolveAssemblyReference.cache
+D:\neiwang3\zc\protobuffer\src\ProtocolBuffers\obj\Debug_Silverlight2\Google.ProtocolBuffersLite.dll
+D:\neiwang3\zc\protobuffer\src\ProtocolBuffers\obj\Debug_Silverlight2\Google.ProtocolBuffersLite.pdb

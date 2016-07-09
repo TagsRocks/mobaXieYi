@@ -1,0 +1,16 @@
+/Users/liyong/Desktop/protobuffer/src/ProtoGen/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/liyong/Desktop/protobuffer/src/ProtoGen/obj/Debug/ProtoGen.exe
+/Users/liyong/Desktop/protobuffer/src/ProtoGen/bin/Debug/Google.ProtocolBuffersLite.dll
+/Users/liyong/Desktop/protobuffer/src/ProtoGen/bin/Debug/Google.ProtocolBuffersLite.dll.mdb
+/Users/liyong/Desktop/protobuffer/src/ProtoGen/bin/Debug/ProtoGen.exe.mdb
+/Users/liyong/Desktop/protobuffer/src/ProtoGen/bin/Debug/ProtoGen.exe
+/Users/liyong/Desktop/protobuffer/src/ProtoGen/obj/Debug/ProtoGen.exe.mdb
+/Users/liyong/Desktop/protobuffer/src/ProtoGen/bin/Debug/Google.ProtocolBuffers.dll
+/Users/liyong/Desktop/protobuffer/src/ProtoGen/bin/Debug/Google.ProtocolBuffers.dll.mdb
+/Users/liyong/DesktopFiles/protobuffer/src/ProtoGen/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/liyong/DesktopFiles/protobuffer/src/ProtoGen/bin/Debug/ProtoGen.exe.mdb
+/Users/liyong/DesktopFiles/protobuffer/src/ProtoGen/bin/Debug/ProtoGen.exe
+/Users/liyong/DesktopFiles/protobuffer/src/ProtoGen/obj/Debug/ProtoGen.exe
+/Users/liyong/DesktopFiles/protobuffer/src/ProtoGen/obj/Debug/ProtoGen.exe.mdb
+/Users/liyong/DesktopFiles/protobuffer/src/ProtoGen/bin/Debug/Google.ProtocolBuffers.dll
+/Users/liyong/DesktopFiles/protobuffer/src/ProtoGen/bin/Debug/Google.ProtocolBuffers.dll.mdb

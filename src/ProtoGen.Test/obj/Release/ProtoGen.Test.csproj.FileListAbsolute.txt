@@ -1,0 +1,15 @@
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtoGen.Test\bin\Release\protoc.exe
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtoGen.Test\bin\Release\google\protobuf\csharp_options.proto
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtoGen.Test\bin\Release\google\protobuf\descriptor.proto
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtoGen.Test\bin\Release\Google.ProtocolBuffers.ProtoGen.Test.dll
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtoGen.Test\bin\Release\Google.ProtocolBuffers.ProtoGen.Test.pdb
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtoGen.Test\bin\Release\Google.ProtocolBuffers.dll
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtoGen.Test\bin\Release\nunit.framework.dll
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtoGen.Test\bin\Release\ProtoGen.exe
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtoGen.Test\bin\Release\Rhino.Mocks.dll
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtoGen.Test\bin\Release\Google.ProtocolBuffers.pdb
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtoGen.Test\bin\Release\ProtoGen.pdb
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtoGen.Test\bin\Release\Rhino.Mocks.xml
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtoGen.Test\obj\Release\ProtoGen.Test.csprojResolveAssemblyReference.cache
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtoGen.Test\obj\Release\Google.ProtocolBuffers.ProtoGen.Test.dll
+E:\liyonghelpme-protobuf-csharp-port-02688742eeac\src\ProtoGen.Test\obj\Release\Google.ProtocolBuffers.ProtoGen.Test.pdb
