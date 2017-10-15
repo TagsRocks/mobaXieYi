@@ -1,5 +1,5 @@
 import "CommonProtoc.proto";
-package protocmsg;
+package MyLib;
 
 import "google/protobuf/csharp_options.proto";
 

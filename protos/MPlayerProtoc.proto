@@ -3,7 +3,7 @@ import "MCopyProtoc.proto";
 import "MPropsProtoc.proto";
 import "MSkillProtoc.proto";
 
-package protocmsg;
+package MyLib;
 
 import "google/protobuf/csharp_options.proto";
 

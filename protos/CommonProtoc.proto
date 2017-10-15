@@ -1,4 +1,4 @@
-package protocmsg;
+package MyLib;
 
 import "google/protobuf/csharp_options.proto";
 
@@ -77,6 +77,7 @@ enum EntityType {
 	CHEST = 0; //宝箱
 	DROP = 1; //掉落物品
 	TRAP = 2; //机关
+	CREEP = 3; //Moba 小兵
 }
 
 enum MoneyType{
