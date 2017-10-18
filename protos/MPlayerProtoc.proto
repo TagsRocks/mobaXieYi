@@ -460,6 +460,8 @@ message EntityInfo {
 	optional bool Changed = 11 [default=false];
 	optional int32 LifeLeft = 12;
 	optional int32 PlayerID = 13;
+	optional int32 Dir = 14;
+	optional int32 Speed = 15;
 }
 
 message PickItemAction {
