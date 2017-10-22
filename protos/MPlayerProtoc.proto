@@ -462,6 +462,7 @@ message EntityInfo {
 	optional int32 PlayerID = 13;
 	optional int32 Dir = 14;
 	optional int32 Speed = 15;
+	optional int32 TeamColor = 16;
 }
 
 message PickItemAction {
@@ -491,6 +492,7 @@ message SkillAction {
 	optional int32 Dir = 7;
 	optional bool  isStaticShoot = 8;
 	optional int32 target = 9;
+	optional int32 runFrame = 10;
 }
 
 
