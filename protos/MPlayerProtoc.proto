@@ -435,6 +435,7 @@ message AvatarInfo {
     optional bool resetPos = 28;
     optional bool isRobot = 29;
     repeated BuffInfo buffInfo = 30;
+    optional int32 playerModelInGame = 31;
 }
 
 //房间信息
