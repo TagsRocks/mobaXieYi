@@ -1,5 +1,12 @@
 #protobufferUnity
 
+依赖安装：
+Mono  sdk
+gitbash
+python 2.7
+
+
+
 1:src 目录是 protobuffer csharp port 修改后的代码， 用于ios 上面使用
 2:Google.ProtocolBuffersLite.dll 是编译的ios 上可用的 dll
 3:build.bat  是编译生成 协议dll 的脚本
