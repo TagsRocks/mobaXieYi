@@ -45,5 +45,8 @@ namespace Google.ProtocolBuffers.ProtoGen {
     void WriteHash(TextGenerator writer);
     void WriteEquals(TextGenerator writer);
     void WriteToString(TextGenerator writer);
+
+    //比较生成Delta对象 以及将旧对象设置为新状态
+    //void WriteCompareDeltas(TextGenerator writer);
   }
 }

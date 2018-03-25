@@ -47,8 +47,8 @@ namespace Google.ProtocolBuffers.ProtoGen {
         writer.WriteLine("private int {0}MemoizedSerializedSize;", Name);
       }
       writer.WriteLine("private pbc::PopsicleList<{0}> {1}_ = new pbc::PopsicleList<{0}>();", TypeName, Name);
-      writer.WriteLine("public scg::IList<{0}> {1}List {{", TypeName, PropertyName);
-      writer.WriteLine("  get {{ return pbc::Lists.AsReadOnly({0}_); }}", Name);
+      writer.WriteLine("public pbc::PopsicleList<{0}> {1}List {{", TypeName, PropertyName);
+      writer.WriteLine("  get {{ return {0}; }}", Name);
       writer.WriteLine("}");
 
       // TODO(jonskeet): Redundant API calls? Possibly - include for portability though. Maybe create an option.
@@ -64,7 +64,7 @@ namespace Google.ProtocolBuffers.ProtoGen {
     public void GenerateBuilderMembers(TextGenerator writer) {
       // Note:  We can return the original list here, because we make it unmodifiable when we build
       // We return it via IPopsicleList so that collection initializers work more pleasantly.
-      writer.WriteLine("public pbc::IPopsicleList<{0}> {1}List {{", TypeName, PropertyName);
+      writer.WriteLine("public pbc::PopsicleList<{0}> {1}List {{", TypeName, PropertyName);
       writer.WriteLine("  get {{ return result.{0}_; }}", Name);
       writer.WriteLine("}");
       writer.WriteLine("public int {0}Count {{", PropertyName);

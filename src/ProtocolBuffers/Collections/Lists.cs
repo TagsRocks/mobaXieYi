@@ -93,7 +93,8 @@ namespace Google.ProtocolBuffers.Collections {
     /// or a new ReadOnlyCollection wrapping the original list.
     /// </summary>
     public static IList<T> AsReadOnly(IList<T> list) {
-      return list.IsReadOnly ? list : new ReadOnlyCollection<T>(list);
+      //return list.IsReadOnly ? list : new ReadOnlyCollection<T>(list);
+      return list;
     }
   }
 }

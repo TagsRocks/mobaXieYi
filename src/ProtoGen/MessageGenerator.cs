@@ -425,7 +425,7 @@ namespace Google.ProtocolBuffers.ProtoGen {
     private void GenerateCommonBuilderMethods(TextGenerator writer) {
       writer.WriteLine("{0} Builder() {{}}", ClassAccessLevel);
       writer.WriteLine();
-      writer.WriteLine("{0} result = new {0}();", ClassName);
+      writer.WriteLine("public {0} result = new {0}();", ClassName);
       writer.WriteLine();
       writer.WriteLine("protected override {0} MessageBeingBuilt {{", ClassName);
       writer.WriteLine("  get { return result; }");

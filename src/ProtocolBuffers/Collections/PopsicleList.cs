@@ -33,100 +33,145 @@ using System;
 using System.Collections.Generic;
 using System.Collections;
 
-namespace Google.ProtocolBuffers.Collections {
-  /// <summary>
-  /// Proxies calls to a <see cref="List{T}" />, but allows the list
-  /// to be made read-only (with the <see cref="MakeReadOnly" /> method), 
-  /// after which any modifying methods throw <see cref="NotSupportedException" />.
-  /// </summary>
-  public sealed class PopsicleList<T> : IPopsicleList<T> {
-
-    private readonly List<T> items = new List<T>();
-    private bool readOnly = false;
-
+namespace Google.ProtocolBuffers.Collections
+{
     /// <summary>
-    /// Makes this list read-only ("freezes the popsicle"). From this
-    /// point on, mutating methods (Clear, Add etc) will throw a
-    /// NotSupportedException. There is no way of "defrosting" the list afterwards.
+    /// Proxies calls to a <see cref="List{T}" />, but allows the list
+    /// to be made read-only (with the <see cref="MakeReadOnly" /> method), 
+    /// after which any modifying methods throw <see cref="NotSupportedException" />.
     /// </summary>
-    public void MakeReadOnly() {
-      //readOnly = true;
-    }
+    public sealed class PopsicleList<T> : IPopsicleList<T>
+    {
 
-    public int IndexOf(T item) {
-      return items.IndexOf(item);
-    }
+        private readonly List<T> items = new List<T>();
+        private bool readOnly = false;
+        public bool dirty = false;
 
-    public void Insert(int index, T item) {
-      ValidateModification();
-      items.Insert(index, item);
-    }
+        /// <summary>
+        /// Makes this list read-only ("freezes the popsicle"). From this
+        /// point on, mutating methods (Clear, Add etc) will throw a
+        /// NotSupportedException. There is no way of "defrosting" the list afterwards.
+        /// </summary>
+        public void MakeReadOnly()
+        {
+            //readOnly = true;
+        }
+        public void ClearDirty()
+        {
+            dirty = false;
+        }
 
-    public void RemoveAt(int index) {
-      ValidateModification();
-      items.RemoveAt(index);
-    }
+        public int IndexOf(T item)
+        {
+            return items.IndexOf(item);
+        }
 
-    public T this[int index] {
-      get {
-        return items[index];
-      }
-      set {
-        ValidateModification();
-        items[index] = value;
-      }
-    }
+        public void Insert(int index, T item)
+        {
+            ValidateModification();
+            items.Insert(index, item);
+            dirty = true;
+        }
 
-    public void Add(T item) {
-      ValidateModification();
-      items.Add(item);
-    }
+        public void RemoveAt(int index)
+        {
+            ValidateModification();
+            items.RemoveAt(index);
+            dirty = true;
+        }
 
-    public void Clear() {
-      ValidateModification();
-      items.Clear();
-    }
+        public T this[int index]
+        {
+            get
+            {
+                return items[index];
+            }
+            set
+            {
+                ValidateModification();
+                items[index] = value;
+            }
+        }
 
-    public bool Contains(T item) {
-      return items.Contains(item);
-    }
+        public void Add(T item)
+        {
+            ValidateModification();
+            items.Add(item);
+            dirty = true;
+        }
 
-    public void CopyTo(T[] array, int arrayIndex) {
-      items.CopyTo(array, arrayIndex);
-    }
+        public void Clear()
+        {
+            ValidateModification();
+            items.Clear();
+            dirty = true;
+        }
 
-    public int Count {
-      get { return items.Count; }
-    }
+        public bool Contains(T item)
+        {
+            return items.Contains(item);
+        }
 
-    public bool IsReadOnly {
-      get { return readOnly; }
-    }
+        public void CopyTo(T[] array, int arrayIndex)
+        {
+            items.CopyTo(array, arrayIndex);
+        }
 
-    public bool Remove(T item) {
-      ValidateModification();
-      return items.Remove(item);
-    }
+        public void CopyList(PopsicleList<T> target)
+        {
+            target.Clear();
+            target.Add(this.items);
+        }
 
-    public void Add(IEnumerable<T> collection) {
-      if (readOnly) {
-        throw new NotSupportedException("List is read-only");
-      }
-      items.AddRange(collection);
-    }
+        public void CopyFrom(PopsicleList<T> source)
+        {
+            Clear();
+            Add(source);
+        }
 
-    public IEnumerator<T> GetEnumerator() {
-      return items.GetEnumerator();
-    }
+        public int Count
+        {
+            get { return items.Count; }
+        }
 
-    IEnumerator IEnumerable.GetEnumerator() {
-      return GetEnumerator();
-    }
+        public bool IsReadOnly
+        {
+            get { return readOnly; }
+        }
 
-    private void ValidateModification() {
-      if (readOnly) {
-        throw new NotSupportedException("List is read-only");
-      }
+        public bool Remove(T item)
+        {
+            ValidateModification();
+            dirty = true;
+            return items.Remove(item);
+        }
+
+        public void Add(IEnumerable<T> collection)
+        {
+            if (readOnly)
+            {
+                throw new NotSupportedException("List is read-only");
+            }
+            dirty = true;
+            items.AddRange(collection);
+        }
+
+        public IEnumerator<T> GetEnumerator()
+        {
+            return items.GetEnumerator();
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
+        }
+
+        private void ValidateModification()
+        {
+            if (readOnly)
+            {
+                throw new NotSupportedException("List is read-only");
+            }
+        }
     }
-  }
 }
