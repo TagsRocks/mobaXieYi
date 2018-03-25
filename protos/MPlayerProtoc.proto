@@ -445,6 +445,10 @@ message AvatarInfo {
     repeated BuffInfo buffInfo = 30;
     optional int32 playerModelInGame = 31;
     optional PlayerState state = 32;
+    
+    optional bool  ItemInfoDirty = 33;
+    repeated int32 ItemInfo = 34;
+    optional int32 Gold = 35;
 }
 
 //房间信息
